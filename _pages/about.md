@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD at <a href='https://www.fbk.eu/en/'>Fondazione Bruno Kessler</a> and <a href='https://www.unitn.it/en'>Univesity of Trento</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: false
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to my personal page!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My name is Daniela and I am currently a PhD student in the Language and Dialogue Technologies ([LanD](https://land.fbk.eu/)) group at Fondazione Bruno Kessler ([FBK](Fondazione Bruno Kessler)) in Trento, Italy. My PhD in Information Engineering and Computer Science is focused on Natural Language Processing and Generation. I hold a bachelor and a master's degree in Digital Humanities from the [University of Pisa](https://www.unipi.it/index.php/english), where I specialised in Language Technologies. My research centers on persona-based dialogue generation, exploring how dialogue agents can adapt to different speaker profiles to enhance conversational coherence and diversity.

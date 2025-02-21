@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Daniela Occhipinti
     - name: Date of Birth
-      value: 14th March 1879
+      value: 8th September 1991
     - name: Languages
-      value: English, German
+      value: Italian, English
 
 - title: Education
   type: time_table
