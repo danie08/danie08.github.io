@@ -6,7 +6,7 @@ subtitle: PhD at <a href='https://www.fbk.eu/en/'>Fondazione Bruno Kessler</a> a
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: false
 
