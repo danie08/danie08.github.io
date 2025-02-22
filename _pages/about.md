@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD at <a href='https://www.fbk.eu/en/'>Fondazione Bruno Kessler</a> and <a href='https://www.unitn.it/en'>Univesity of Trento</a>.
 
