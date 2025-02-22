@@ -1,6 +1,6 @@
 ---
-title: Poster presentation at ACL2024 in Bangkok
 layout: post
+title: Poster presentation at ACL2024 in Bangkok
 date: 2024-08-11 15:59:00-0400
 inline: true
 related_posts: false
