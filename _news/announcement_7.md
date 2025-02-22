@@ -1,0 +1,17 @@
+---
+layout: post
+date: 2024-05-16 15:59:00-0400
+inline: true
+related_posts: false
+---
+
+I was very happy to present our paper [PRODIGy: a PROfile-based DIalogue Generation dataset](https://aclanthology.org/2024.findings-naacl.222/) to the *[NAACL 2024 conference](https://2024.naacl.org/)'s virtual poster session*! 
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/naacl2024/naacl_virtual.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/naacl2024/NAACL 2024 POSTER.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>

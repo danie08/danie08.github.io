@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2018-10-01 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I started my work on the [SPIRIT](https://www.spirit-tools.com/index.php/about-spirit/the-project) European H2020 project.
