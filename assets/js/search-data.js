@@ -409,16 +409,29 @@ ninja.data = [{
           window.location.href = "/sample-posts/2015/03/15/formatting-and-links.html";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "news-i-started-my-work-on-the-spirit-european-h2020-project",
+          title: 'I started my work on the SPIRIT European H2020 project.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-got-my-master-s-degree-in-digital-humanities-with-the-thesis-industrial-strength-multilingual-named-entity-collection-for-the-spirit-project",
+          title: 'I got my master’s degree in Digital Humanities with the thesis Industrial Strength...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-our-work-italianlp-tag-it-umberto-for-author-profiling-at-tag-it-2020-on-text-author-profiling-has-won-the-tag-it-task-of-evalita2020",
+          title: 'Our work ItaliaNLP @ TAG-IT: UmBERTo for Author Profiling at TAG-it 2020 on...',
+          description: "",
+          section: "News",},{id: "news-started-a-phd-in-natural-language-generation-at-the-language-and-dialogue-technologies-land-group-under-the-supervision-of-marco-guerini",
+          title: 'Started a PhD in natural language generation at the Language and Dialogue Technologies...',
+          description: "",
+          section: "News",},{id: "news-the-paper-prodigy-a-profile-based-dialogue-generation-dataset-has-been-accepted-for-publication-in-the-findings-of-the-association-for-computational-linguistics-naacl-2024",
+          title: 'The paper PRODIGy: a PROfile-based DIalogue Generation dataset has been accepted for publication...',
+          description: "",
+          section: "News",},{id: "news-the-paper-fine-tuning-with-hed-it-the-impact-of-human-post-editing-for-dialogical-language-models-has-been-accepted-for-publication-in-the-findings-of-the-association-for-computational-linguistics-acl-2024",
+          title: 'The paper Fine-tuning with HED-IT: The impact of human post-editing for dialogical language...',
+          description: "",
+          section: "News",},{id: "news-i-was-very-happy-to-present-our-paper-prodigy-a-profile-based-dialogue-generation-dataset-to-the-naacl-2024-conference-s-virtual-poster-session",
+          title: 'I was very happy to present our paper PRODIGy: a PROfile-based DIalogue Generation...',
+          description: "",
+          section: "News",},{id: "news-i-was-in-bangkok-at-acl2024-conference-to-present-our-poster-of-the-paper-fine-tuning-with-hed-it-the-impact-of-human-post-editing-for-dialogical-language-models",
+          title: 'I was in Bangkok at ACL2024 Conference to present our poster of the...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -527,13 +540,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://twitter.com/docchipinti8", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
