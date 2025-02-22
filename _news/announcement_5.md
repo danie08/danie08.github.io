@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The paper [PRODIGy: a PROfile-based DIalogue Generation dataset](https://arxiv.org/abs/2311.05195) has been accepted for publication in the *Findings of the Association for Computational Linguistics: NAACL 2024*.
+The paper [PRODIGy: a PROfile-based DIalogue Generation dataset](https://aclanthology.org/2024.findings-naacl.222/) has been accepted for publication in the *Findings of the Association for Computational Linguistics: NAACL 2024*.
