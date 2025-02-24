@@ -378,19 +378,28 @@ ninja.data = [{
           section: "News",},{id: "news-the-paper-prodigy-a-profile-based-dialogue-generation-dataset-has-been-accepted-for-publication-in-the-findings-of-the-association-for-computational-linguistics-naacl-2024",
           title: 'The paper PRODIGy: a PROfile-based DIalogue Generation dataset has been accepted for publication...',
           description: "",
+          section: "News",},{id: "news-from-april-1st-to-june-30th-i-was-a-visiting-phd-student-at-the-center-for-language-and-cognition-groningen-supervised-by-professor-malvina-nissim",
+          title: 'From April 1st to June 30th, I was a visiting PhD student at...',
+          description: "",
           section: "News",},{id: "news-the-paper-fine-tuning-with-hed-it-the-impact-of-human-post-editing-for-dialogical-language-models-has-been-accepted-for-publication-in-the-findings-of-the-association-for-computational-linguistics-acl-2024",
           title: 'The paper Fine-tuning with HED-IT: The impact of human post-editing for dialogical language...',
           description: "",
-          section: "News",},{id: "news-i-was-very-happy-to-present-our-paper-prodigy-a-profile-based-dialogue-generation-dataset-to-the-naacl-2024-conference-s-virtual-poster-session",
-          title: 'I was very happy to present our paper PRODIGy: a PROfile-based DIalogue Generation...',
+          section: "News",},{id: "news-poster-presentation-at-naacl2024-virtual",
+          title: 'Poster presentation at NAACL2024 (virtual)',
           description: "",
-          section: "News",},{id: "news-from-august-11-to-16-i-was-in-bangkok-at-acl2024-conference-to-present-our-poster-of-the-paper-fine-tuning-with-hed-it-the-impact-of-human-post-editing-for-dialogical-language-models",
-          title: 'From August 11 to 16, I was in Bangkok at ACL2024 Conference to...',
+          section: "News",handler: () => {
+              window.location.href = "/news/2024-06-10/";
+            },},{id: "news-poster-presentation-at-acl2024-in-bangkok",
+          title: 'Poster presentation at ACL2024 in Bangkok',
           description: "",
-          section: "News",},{id: "news-from-december-4-to-6-i-was-in-pisa-at-clic-it-2024-conference-to-present-our-poster-of-the-paper-research-communication-fine-tuning-with-hed-it-the-impact-of-human-post-editing-for-dialogical-language-models",
-          title: 'From December 4 to 6, I was in Pisa at CLiC-it 2024 Conference...',
+          section: "News",handler: () => {
+              window.location.href = "/news/2024-08-11/";
+            },},{id: "news-poster-presentation-at-clic-it-2024",
+          title: 'Poster presentation at CLiC-it 2024',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",handler: () => {
+              window.location.href = "/news/2024-12-04/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
