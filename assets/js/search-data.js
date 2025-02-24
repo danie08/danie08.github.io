@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
@@ -376,11 +369,11 @@ ninja.data = [{
           section: "News",},{id: "news-our-work-italianlp-tag-it-umberto-for-author-profiling-at-tag-it-2020-on-text-author-profiling-has-won-the-tag-it-task-of-evalita2020",
           title: 'Our work ItaliaNLP @ TAG-IT: UmBERTo for Author Profiling at TAG-it 2020 on...',
           description: "",
-          section: "News",},{id: "news-july-4th-to-8th-2022-i-attended-the-deep-learning-for-natural-language-processing-10th-edition-in-san-sebastian",
-          title: 'July 4th to 8th, 2022 I attended the Deep Learning for Natural Language...',
-          description: "",
           section: "News",},{id: "news-started-a-phd-in-natural-language-generation-at-the-language-and-dialogue-technologies-land-group-under-the-supervision-of-marco-guerini",
           title: 'Started a PhD in Natural Language Generation at the Language and Dialogue Technologies...',
+          description: "",
+          section: "News",},{id: "news-july-4th-to-8th-2022-i-attended-the-deep-learning-for-natural-language-processing-10th-edition-in-san-sebastian",
+          title: 'July 4th to 8th, 2022 I attended the Deep Learning for Natural Language...',
           description: "",
           section: "News",},{id: "news-the-paper-prodigy-a-profile-based-dialogue-generation-dataset-has-been-accepted-for-publication-in-the-findings-of-the-association-for-computational-linguistics-naacl-2024",
           title: 'The paper PRODIGy: a PROfile-based DIalogue Generation dataset has been accepted for publication...',
