@@ -69,6 +69,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2024-12-04/";
+            },},{id: "news-poster-presentation-at-clic-it-2024",
+          title: 'Poster presentation at CLiC-it 2024',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-06-05/";
             },},{
         id: 'social-bluesky',
         title: 'Bluesky',
