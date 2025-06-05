@@ -54,9 +54,6 @@ ninja.data = [{
           section: "News",},{id: "news-the-paper-fine-tuning-with-hed-it-the-impact-of-human-post-editing-for-dialogical-language-models-has-been-accepted-for-publication-in-the-findings-of-the-association-for-computational-linguistics-acl-2024",
           title: 'The paper Fine-tuning with HED-IT: The impact of human post-editing for dialogical language...',
           description: "",
-          section: "News",},{id: "news-i-am-happy-to-announce-that-our-paper-when-harry-meets-superman-the-role-of-the-interlocutor-in-persona-based-dialogue-generation-has-been-accepted-for-publication-in-the-proceedings-of-the-association-for-computational-linguistics-acl-2025",
-          title: '🚀 I am happy to announce that our paper When Harry Meets Superman:...',
-          description: "",
           section: "News",},{id: "news-poster-presentation-at-naacl2024-virtual",
           title: 'Poster presentation at NAACL2024 (virtual)',
           description: "",
@@ -72,7 +69,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2024-12-04/";
-            },},{
+            },},{id: "news-i-am-happy-to-announce-that-our-paper-when-harry-meets-superman-the-role-of-the-interlocutor-in-persona-based-dialogue-generation-has-been-accepted-for-publication-in-the-proceedings-of-the-association-for-computational-linguistics-acl-2025",
+          title: '🚀 I am happy to announce that our paper When Harry Meets Superman:...',
+          description: "",
+          section: "News",},{
         id: 'social-bluesky',
         title: 'Bluesky',
         section: 'Socials',
