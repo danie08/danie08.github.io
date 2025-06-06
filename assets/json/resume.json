@@ -95,6 +95,13 @@
   ],
   "publications": [
     {
+      "name": "When Harry Meets Superman: The Role of The Interlocutor in Persona-Based Dialogue Generation",
+      "publisher": "Association for Computational Linguistics3",
+      "releaseDate": "2025-06-05",
+      "url": "https://arxiv.org/abs/2505.24613",
+      "summary": "Daniela Occhipinti, Marco Guerini, and Malvina Nissim. 2025. When Harry Meets Superman: The Role of The Interlocutor in Persona-Based Dialogue Generation. To appear: Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)"
+    },
+    {
       "name": "Fine-tuning with HED-IT: The impact of human post-editing for dialogical language models",
       "publisher": "Association for Computational Linguistics3",
       "releaseDate": "2024-08-01",
