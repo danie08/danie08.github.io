@@ -11,29 +11,25 @@
   bibtex_show = {true},
 }
 
-@inproceedings{occhipinti:etal-2024-prodigy,
-    title = "{PRODIG}y: a {PRO}file-based {DI}alogue Generation dataset",
+@inproceedings{occhipinti-etal-2025-superman,
+    title = "When Harry Meets Superman: {The Role of The Interlocutor in Persona-Based Dialogue Generation}",
     author = "Occhipinti, Daniela  and
-      Tekiro{\u{g}}lu, Serra Sinem  and
-      Guerini, Marco",
-    editor = "Duh, Kevin  and
-      Gomez, Helena  and
-      Bethard, Steven",
-    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2024",
-    month = jun,
-    year = "2024",
-    address = "Mexico City, Mexico",
+      Guerini, Marco  and
+      Nissim, Malvina ",
+    editor = "",
+    booktitle = "To appear: Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
     publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2024.findings-naacl.222",
-    doi = "10.18653/v1/2024.findings-naacl.222",
-    pages = "3500--3514",
-    selected = {true},
-    abbr = {NAACL2024},
-    preview = {naacl2024/prodigy.png},
-    code = {https://github.com/LanD-FBK/prodigy-dataset},
-    html = {https://aclanthology.org/2024.findings-naacl.222},
+    url = "https://arxiv.org/abs/2505.24613",
+    doi = "https://doi.org/10.48550/arXiv.2505.24613",
+    pages = "",
+    abbr = {ACL2025},
+    preview = {acl2025/superman.jpeg},
     bibtex_show = {true},
-    abstract = "Providing dialogue agents with a profile representation can improve their consistency and coherence, leading to better conversations. However, current profile-based dialogue datasets for training such agents contain either explicit profile representations that are simple and dialogue-specific, or implicit representations that are difficult to collect. In this work, we introduce the PRODIGy (PROfile-based DIalogue Generation) dataset, which brings diverse representations together, providing a more comprehensive profile dimension set for each speaker. This resource comprises more than 20k dialogues, sourced from movie scripts, aligned with speaker representations such as communication style, biography, personality and gender. Initial experiments with diverse baselines show that providing generative language models with these aspects of a profile, both separately and jointly, enhances models{'} performance. This improvement holds true in both in-domain and cross-domain settings, for both fine-tuned and instruction-based LLMs.",
+    selected = {true},
+    abstract = "Endowing dialogue agents with persona information has proven to significantly improve the consistency and diversity of their generations. While much focus has been placed on aligning dialogues with provided personas, the adaptation to the interlocutor’s profile remains largely underexplored. In this work, we investigate three key aspects: (1) a model's ability to align responses with both the provided persona and the interlocutor’s; (2) its robustness when dealing with familiar versus unfamiliar interlocutors and topics, and (3) the impact of additional fine-tuning on specific persona-based dialogues. We evaluate dialogues generated with diverse speaker pairings and topics, framing the evaluation as an author identification task and employing both LLM-as-a-judge and human evaluations. By systematically masking or disclosing information about the interlocutor, we assess its impact on dialogue generation. Results show that access to the interlocutor's persona improves the recognition of the target speaker, while masking it does the opposite. Although models generalise well across topics, they struggle with unfamiliar interlocutors. Finally, we found that in zero-shot settings, LLMs often copy biographical details, facilitating identification but trivialising the task.",
 }
 
 @inproceedings{occhipinti-etal-2024-fine,
@@ -65,24 +61,31 @@
     abstract = "Automatic methods for generating and gathering linguistic data have proven effective for fine-tuning Language Models (LMs) in languages less resourced than English. Still, while there has been emphasis on data quantity, less attention has been given to its quality. In this work, we investigate the impact of human intervention on machine-generated data when fine-tuning dialogical models. In particular, we study (1) whether post-edited dialogues exhibit higher perceived quality compared to the originals that were automatically generated; (2) whether fine-tuning with post-edited dialogues results in noticeable differences in the generated outputs; and (3) whether post-edited dialogues influence the outcomes when considering the parameter size of the LMs. To this end we created HED-IT, a large-scale dataset where machine-generated dialogues are paired with the version post-edited by humans. Using both the edited and unedited portions of HED-IT, we fine-tuned three different sizes of an LM. Results from both human and automatic evaluation show that the different quality of training data is clearly perceived and it has an impact also on the models trained on such data. Additionally, our findings indicate that larger models are less sensitive to data quality, whereas this has a crucial impact on smaller models. These results enhance our comprehension of the impact of human intervention on training data in the development of high-quality LMs.",
 }
 
-@inproceedings{occhipinti-etal-2025-superman,
-    title = "When Harry Meets Superman: {The Role of The Interlocutor in Persona-Based Dialogue Generation}",
+
+@inproceedings{occhipinti:etal-2024-prodigy,
+    title = "{PRODIG}y: a {PRO}file-based {DI}alogue Generation dataset",
     author = "Occhipinti, Daniela  and
-      Guerini, Marco  and
-      Nissim, Malvina ",
-    editor = "",
-    booktitle = "To appear: Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)",
-    month = jul,
-    year = "2025",
-    address = "Vienna, Austria",
+      Tekiro{\u{g}}lu, Serra Sinem  and
+      Guerini, Marco",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2024",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
     publisher = "Association for Computational Linguistics",
-    url = "https://arxiv.org/abs/2505.24613",
-    doi = "https://doi.org/10.48550/arXiv.2505.24613",
-    pages = "",
-    abbr = {ACL2025},
-    preview = {acl2025/superman.jpeg},
-    bibtex_show = {true},
+    url = "https://aclanthology.org/2024.findings-naacl.222",
+    doi = "10.18653/v1/2024.findings-naacl.222",
+    pages = "3500--3514",
     selected = {true},
-    abstract = "Endowing dialogue agents with persona information has proven to significantly improve the consistency and diversity of their generations. While much focus has been placed on aligning dialogues with provided personas, the adaptation to the interlocutor’s profile remains largely underexplored. In this work, we investigate three key aspects: (1) a model's ability to align responses with both the provided persona and the interlocutor’s; (2) its robustness when dealing with familiar versus unfamiliar interlocutors and topics, and (3) the impact of additional fine-tuning on specific persona-based dialogues. We evaluate dialogues generated with diverse speaker pairings and topics, framing the evaluation as an author identification task and employing both LLM-as-a-judge and human evaluations. By systematically masking or disclosing information about the interlocutor, we assess its impact on dialogue generation. Results show that access to the interlocutor's persona improves the recognition of the target speaker, while masking it does the opposite. Although models generalise well across topics, they struggle with unfamiliar interlocutors. Finally, we found that in zero-shot settings, LLMs often copy biographical details, facilitating identification but trivialising the task.",
+    abbr = {NAACL2024},
+    preview = {naacl2024/prodigy.png},
+    code = {https://github.com/LanD-FBK/prodigy-dataset},
+    html = {https://aclanthology.org/2024.findings-naacl.222},
+    bibtex_show = {true},
+    abstract = "Providing dialogue agents with a profile representation can improve their consistency and coherence, leading to better conversations. However, current profile-based dialogue datasets for training such agents contain either explicit profile representations that are simple and dialogue-specific, or implicit representations that are difficult to collect. In this work, we introduce the PRODIGy (PROfile-based DIalogue Generation) dataset, which brings diverse representations together, providing a more comprehensive profile dimension set for each speaker. This resource comprises more than 20k dialogues, sourced from movie scripts, aligned with speaker representations such as communication style, biography, personality and gender. Initial experiments with diverse baselines show that providing generative language models with these aspects of a profile, both separately and jointly, enhances models{'} performance. This improvement holds true in both in-domain and cross-domain settings, for both fine-tuned and instruction-based LLMs.",
 }
+
+
 
