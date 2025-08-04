@@ -72,7 +72,12 @@ ninja.data = [{
             },},{id: "news-i-am-happy-to-announce-that-our-paper-when-harry-meets-superman-the-role-of-the-interlocutor-in-persona-based-dialogue-generation-has-been-accepted-for-publication-in-the-proceedings-of-the-association-for-computational-linguistics-acl-2025",
           title: '🚀 I am happy to announce that our paper When Harry Meets Superman:...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "news-poster-presentation-at-acl-2025-in-vienna",
+          title: 'Poster Presentation at ACL 2025 in Vienna',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-28-07/";
+            },},{
         id: 'social-bluesky',
         title: 'Bluesky',
         section: 'Socials',
