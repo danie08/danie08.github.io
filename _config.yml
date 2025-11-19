@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Daniela Occhipinti # the website title (if blank, full name will be used instead)
 first_name: Daniela
 middle_name: 
 last_name: Occhipinti
@@ -108,9 +108,9 @@ zotero_username: # your zotero username
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: /assets/img/prof_pic.jpeg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -247,7 +247,6 @@ exclude:
   - readme_preview/
   - vendor
   - _projects/
-  - _posts/
 keep_files:
   - CNAME
   - .nojekyll

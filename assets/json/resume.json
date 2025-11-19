@@ -36,7 +36,7 @@
       "institution": "University of Trento & Fondazione Bruno Kessler",
       "location": "Trento, Italy",
       "url": "https://www.unitn.it/en",
-      "area": "Persona Based neural models for Opinionated Dialogues",
+      "area": "Persona Based Dialogue Generation",
       "studyType": "PhD",
       "startDate": "2021-11-01",
       "endDate": "2025-10-31"
@@ -61,6 +61,14 @@
     }
   ],
   "work": [
+    {
+      "name": "Fondazione Bruno Kessler - Language and Dialogue Technologies Group",
+      "position": "Researcher",
+      "location": "Trento, Italy",
+      "url": "https://land.fbk.eu/",
+      "startDate": "2024-11-01",
+      "summary": "Research on persona-based dialogue generation and evaluation."
+    },
     {
       "name": "TopNetwork S.p.A",
       "position": "NLP Engineer",
