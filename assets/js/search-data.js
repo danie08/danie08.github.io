@@ -11,356 +11,33 @@ ninja.data = [{
     },
   },{id: "nav-news",
           title: "News",
-          description: "",
+          description: "News and updates from Daniela Occhipinti — conference presentations, paper acceptances, and research milestones in NLP and conversational AI.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/news/";
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "",
+          description: "Publications by Daniela Occhipinti on persona-based dialogue generation, conversational AI evaluation, and NLP — including papers at ACL 2025, ACL 2024 Findings, and NAACL 2024 Findings.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "Selected research projects in persona-based dialogue generation and evaluation.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-cv",
           title: "CV",
-          description: "",
+          description: "Academic CV of Daniela Occhipinti — NLP researcher at FBK specialising in persona-based dialogue generation and conversational AI.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-image-galleries",
-      
-        title: "a post with image galleries",
-      
-      description: "this is what included image galleries could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2024/12/04/photo-gallery.html";
-        
-      },
-    },{id: "post-a-post-with-tabs",
-      
-        title: "a post with tabs",
-      
-      description: "this is what included tabs in a post could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2024/05/01/tabs.html";
-        
-      },
-    },{id: "post-a-post-with-typograms",
-      
-        title: "a post with typograms",
-      
-      description: "this is what included typograms code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2024/04/29/typograms.html";
-        
-      },
-    },{id: "post-a-post-that-can-be-cited",
-      
-        title: "a post that can be cited",
-      
-      description: "this is what a post that can be cited looks like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2024/04/28/post-citation.html";
-        
-      },
-    },{id: "post-a-post-with-pseudo-code",
-      
-        title: "a post with pseudo code",
-      
-      description: "this is what included pseudo code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2024/04/15/pseudocode.html";
-        
-      },
-    },{id: "post-a-post-with-code-diff",
-      
-        title: "a post with code diff",
-      
-      description: "this is how you can display code diffs",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2024/01/27/code-diff.html";
-        
-      },
-    },{id: "post-a-post-with-advanced-image-components",
-      
-        title: "a post with advanced image components",
-      
-      description: "this is what advanced image components could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2024/01/27/advanced-images.html";
-        
-      },
-    },{id: "post-a-post-with-vega-lite",
-      
-        title: "a post with vega lite",
-      
-      description: "this is what included vega lite code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2024/01/27/vega-lite.html";
-        
-      },
-    },{id: "post-a-post-with-geojson",
-      
-        title: "a post with geojson",
-      
-      description: "this is what included geojson code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2024/01/26/geojson-map.html";
-        
-      },
-    },{id: "post-a-post-with-echarts",
-      
-        title: "a post with echarts",
-      
-      description: "this is what included echarts code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2024/01/26/echarts.html";
-        
-      },
-    },{id: "post-a-post-with-chart-js",
-      
-        title: "a post with chart.js",
-      
-      description: "this is what included chart.js code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2024/01/26/chartjs.html";
-        
-      },
-    },{id: "post-a-post-with-tikzjax",
-      
-        title: "a post with TikZJax",
-      
-      description: "this is what included TikZ code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2023/12/12/tikzjax.html";
-        
-      },
-    },{id: "post-a-post-with-bibliography",
-      
-        title: "a post with bibliography",
-      
-      description: "an example of a blog post with bibliography",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2023/07/12/post-bibliography.html";
-        
-      },
-    },{id: "post-a-post-with-jupyter-notebook",
-      
-        title: "a post with jupyter notebook",
-      
-      description: "an example of a blog post with jupyter notebook",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2023/07/04/jupyter-notebook.html";
-        
-      },
-    },{id: "post-a-post-with-custom-blockquotes",
-      
-        title: "a post with custom blockquotes",
-      
-      description: "an example of a blog post with custom blockquotes",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2023/05/12/custom-blockquotes.html";
-        
-      },
-    },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-      
-        title: "a post with table of contents on a sidebar",
-      
-      description: "an example of a blog post with table of contents on a sidebar",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2023/04/25/sidebar-table-of-contents.html";
-        
-      },
-    },{id: "post-a-post-with-audios",
-      
-        title: "a post with audios",
-      
-      description: "this is what included audios could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2023/04/25/audios.html";
-        
-      },
-    },{id: "post-a-post-with-videos",
-      
-        title: "a post with videos",
-      
-      description: "this is what included videos could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2023/04/24/videos.html";
-        
-      },
-    },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-      
-        title: "displaying beautiful tables with Bootstrap Tables",
-      
-      description: "an example of how to use Bootstrap Tables",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2023/03/20/tables.html";
-        
-      },
-    },{id: "post-a-post-with-table-of-contents",
-      
-        title: "a post with table of contents",
-      
-      description: "an example of a blog post with table of contents",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2023/03/20/table-of-contents.html";
-        
-      },
-    },{id: "post-a-post-with-giscus-comments",
-      
-        title: "a post with giscus comments",
-      
-      description: "an example of a blog post with giscus comments",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/external-services/2022/12/10/giscus-comments.html";
-        
-      },
-    },{id: "post-a-post-with-redirect",
-      
-        title: "a post with redirect",
-      
-      description: "you can also redirect to assets like pdf",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/assets/pdf/example_pdf.pdf";
-        
-      },
-    },{id: "post-a-post-with-diagrams",
-      
-        title: "a post with diagrams",
-      
-      description: "an example of a blog post with diagrams",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/2021/07/04/diagrams.html";
-        
-      },
-    },{id: "post-a-distill-style-blog-post",
-      
-        title: "a distill-style blog post",
-      
-      description: "an example of a distill-style blog post and main elements",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/2021/05/22/distill.html";
-        
-      },
-    },{id: "post-a-post-with-twitter",
-      
-        title: "a post with twitter",
-      
-      description: "an example of a blog post with twitter",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/external-services/2020/09/28/twitter.html";
-        
-      },
-    },{id: "post-a-post-with-disqus-comments",
-      
-        title: "a post with disqus comments",
-      
-      description: "an example of a blog post with disqus comments",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/external-services/2015/10/20/disqus-comments.html";
-        
-      },
-    },{id: "post-a-post-with-math",
-      
-        title: "a post with math",
-      
-      description: "an example of a blog post with some math",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2015/10/20/math.html";
-        
-      },
-    },{id: "post-a-post-with-code",
-      
-        title: "a post with code",
-      
-      description: "an example of a blog post with some code",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2015/07/15/code.html";
-        
-      },
-    },{id: "post-a-post-with-images",
-      
-        title: "a post with images",
-      
-      description: "this is what included images could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2015/05/15/images.html";
-        
-      },
-    },{id: "post-a-post-with-formatting-and-links",
-      
-        title: "a post with formatting and links",
-      
-      description: "march &amp; april, looking forward to summer",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2015/03/15/formatting-and-links.html";
-        
-      },
-    },{id: "news-i-started-my-work-on-the-spirit-european-h2020-project",
+        },{id: "news-i-started-my-work-on-the-spirit-european-h2020-project",
           title: 'I started my work on the SPIRIT European H2020 project.',
           description: "",
           section: "News",},{id: "news-i-earned-my-master-s-degree-in-digital-humanities-from-the-university-of-pisa-with-a-thesis-titled-industrial-strength-multilingual-named-entity-collection-for-the-spirit-project",
@@ -399,16 +76,19 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2024-12-04/";
-            },},{id: "news-i-am-happy-to-announce-that-our-paper-when-harry-meets-superman-the-role-of-the-interlocutor-in-persona-based-dialogue-generation-has-been-accepted-for-publication-in-the-proceedings-of-the-association-for-computational-linguistics-acl-2025",
-          title: '🚀 I am happy to announce that our paper When Harry Meets Superman:...',
+            },},{id: "news-our-paper-when-harry-meets-superman-the-role-of-the-interlocutor-in-persona-based-dialogue-generation-has-been-accepted-to-the-main-acl-2025-proceedings-this-project-is-especially-meaningful-to-me-because-it-pushes-my-research-beyond-speaker-centered-personas-and-toward-a-more-relational-view-of-dialogue-models-do-not-just-respond-as-someone-they-respond-to-someone-the-acceptance-feels-like-an-important-milestone-in-the-broader-research-path-i-am-building-around-persona-interlocutors-and-conversational-adaptation",
+          title: 'Our paper When Harry Meets Superman: The Role of The Interlocutor in Persona-Based...',
           description: "",
           section: "News",},{id: "news-poster-presentation-at-acl-2025-in-vienna",
           title: 'Poster Presentation at ACL 2025 in Vienna',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-07-28/";
-            },},{id: "news-i-am-thrilled-to-share-that-i-have-started-a-new-position-as-a-researcher-in-the-language-and-dialogue-technologies-group-at-fondazione-bruno-kessler-in-trento-i-will-continue-my-work-on-persona-based-dialogue-generation-collaborating-with-an-amazing-team-to-push-conversational-ai-forward-excited-for-the-road-ahead",
-          title: 'I am thrilled to share that I have started a new position as...',
+            },},{id: "news-i-am-happy-to-share-that-i-have-started-a-new-position-as-a-researcher-in-the-language-and-dialogue-technologies-group-at-fondazione-bruno-kessler-in-trento-this-feels-like-a-natural-next-step-in-the-research-trajectory-i-have-been-building-over-the-last-few-years-from-profile-based-dialogue-datasets-to-work-on-data-quality-and-interlocutor-aware-generation-i-am-excited-to-keep-developing-that-line-of-work-in-an-environment-where-conversational-ai-language-technologies-and-evaluation-can-be-studied-together",
+          title: 'I am happy to share that I have started a new position as...',
+          description: "",
+          section: "News",},{id: "news-on-april-28th-i-successfully-defended-my-doctoral-thesis-on-persona-based-dialogue-generation-at-the-university-of-trento-and-fondazione-bruno-kessler-graduating-with-honors-it-has-been-a-demanding-and-deeply-rewarding-journey-crossing-this-finish-line-feels-like-both-a-conclusion-and-a-beginning-a-heartfelt-thank-you-to-my-advisors-dr-marco-guerini-and-prof-malvina-nissim-for-their-guidance-throughout-these-years-to-my-colleagues-for-their-constant-support-and-to-everyone-who-believed-in-me-along-the-way",
+          title: 'On April 28th, I successfully defended my doctoral thesis on Persona-Based Dialogue Generation...',
           description: "",
           section: "News",},{
         id: 'social-bluesky',
