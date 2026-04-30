@@ -5,7 +5,7 @@
 ### Visual Identity
 
 - [ ] **VIS-01**: User sees a custom color palette (warm, non-al-folio blue) applied site-wide via CSS tokens in `_themes.scss` and `_variables.scss`
-- [ ] **VIS-02**: User sees intentional typography — a body font and a display/heading font — replacing Roboto defaults site-wide
+- [x] **VIS-02**: User sees intentional typography — a body font and a display/heading font — replacing Roboto defaults site-wide
 - [ ] **VIS-03**: Footer no longer shows the al-folio "powered by" attribution
 - [ ] **VIS-04**: PurgeCSS safelist configured so custom CSS classes survive production builds without being silently stripped
 
@@ -55,7 +55,7 @@ _Filled by roadmapper._
 | REQ-ID | Phase | Status |
 |--------|-------|--------|
 | VIS-01 | Phase 1 — Visual Foundation | Not started |
-| VIS-02 | Phase 1 — Visual Foundation | Not started |
+| VIS-02 | Phase 1 — Visual Foundation | Complete |
 | VIS-03 | Phase 1 — Visual Foundation | Not started |
 | VIS-04 | Phase 1 — Visual Foundation | Not started |
 | HOME-01 | Phase 2 — Homepage Layout | Not started |
