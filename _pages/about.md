@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 <p class="hero-thesis">
-  I study persona-based dialogue generation — not just how a system represents who you are, but how it adapts to <em>who you are speaking with</em>.
+  I study how dialogue agents can stay in character as the persona they are playing — and adapt to the person they are speaking with.
 </p>
 
 <div class="homepage-highlights" aria-label="Areas of expertise">
@@ -39,7 +39,7 @@ social: true # includes social icons at the bottom of the page
 </p>
 
 <p>
-  I completed a PhD in Information Engineering and Computer Science at the <a href="https://www.unitn.it/en/">University of Trento</a> and FBK, with honors, working on persona-based dialogue generation. My thesis investigates a largely overlooked dimension of this problem: dialogue is inherently dyadic. How we speak depends not only on who we are, but on whom we are speaking with. I study how models can balance maintaining a speaker's consistent identity with adapting to different conversational partners — and what happens when they fail to do so.
+  I completed a PhD in Information Engineering and Computer Science at the <a href="https://www.unitn.it/en/">University of Trento</a> and FBK, with honors. My thesis addresses a gap in persona-based dialogue research: most systems learn to generate responses consistent with the persona the agent is playing, but ignore the conversational partner. I study how models can balance staying in character with adapting to different interlocutors — and where the two demands conflict.
 </p>
 
 <div class="homepage-currently">
