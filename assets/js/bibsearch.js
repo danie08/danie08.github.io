@@ -1,6 +1,16 @@
 import { highlightSearchTerm } from "./highlight-search-term.js";
 
 document.addEventListener("DOMContentLoaded", function () {
+  const statusElement = document.getElementById("bibsearch-status");
+
+  const updateStatus = () => {
+    if (!statusElement) return;
+
+    const visibleEntries = document.querySelectorAll(".bibliography > li:not(.unloaded)").length;
+    const hasQuery = document.getElementById("bibsearch").value.trim().length > 0;
+    statusElement.hidden = !(hasQuery && visibleEntries === 0);
+  };
+
   // actual bibsearch logic
   const filterItems = (searchTerm) => {
     document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
@@ -48,6 +58,8 @@ document.addEventListener("DOMContentLoaded", function () {
         element.classList.add("unloaded");
       }
     });
+
+    updateStatus();
   };
 
   const updateInputField = () => {
@@ -61,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("bibsearch").addEventListener("input", function () {
     clearTimeout(timeoutId); // Clear the previous timeout
     const searchTerm = this.value.toLowerCase();
-    timeoutId = setTimeout(filterItems(searchTerm), 300);
+    timeoutId = setTimeout(() => filterItems(searchTerm), 300);
   });
 
   window.addEventListener("hashchange", updateInputField); // Update the filter when the hash changes

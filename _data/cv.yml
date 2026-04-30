@@ -28,7 +28,7 @@
   contents:
     - title: Researcher
       institution: Language and Dialogue Technologies Group, Fondazione Bruno Kessler (Trento, Italy)
-      year: 2024 - Present
+      year: Nov 2025 - Present
     - title: NLP Engineer
       institution: TopNetwork S.p.A.
       year: Nov 2020 - Oct 2021
@@ -48,6 +48,12 @@
     - Fine-tuning with HED-IT: The impact of human post-editing for dialogical language models. ACL 2024.
     - PRODIGy: a PROfile-based DIalogue Generation dataset. NAACL 2024.
     - ItaliaNLP @ TAG-IT: UmBERTo for Author Profiling at TAG-it 2020. EVALITA 2020.
+
+- title: Awards and Honors
+  type: list
+  contents:
+    - "PhD in Information Engineering and Computer Science — graduated with honors, University of Trento & FBK, 2025."
+    - "1st place in all subtasks of TAG-it at EVALITA 2020 (author profiling shared task)."
 
 - title: Skills
   type: list

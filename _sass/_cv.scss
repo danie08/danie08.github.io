@@ -1,9 +1,10 @@
 /*****************************
  * CV shared styles
  *****************************/
+@use "variables" as *;
 
 div.container-link-button {
-  margin-right: 0.5rem;
+  margin-right: $space-2;
 }
 
 table.table-cv {
@@ -18,14 +19,12 @@ table.table-cv {
 a.btncv {
   color: var(--global-text-color) !important;
   border: 1px solid var(--global-text-color) !important;
-  border-radius: 0.125rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  border-radius: $radius-sm;
+  padding: $space-1 $space-4;
   text-decoration: none;
   font-weight: 400;
-  font-size: 0.7rem;
+  font-size: $text-caption-size;
+  line-height: $text-caption-line-height;
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
@@ -43,25 +42,26 @@ a.btncv:hover {
  *****************************/
 
 p.location {
-  font-size: 0.7rem;
+  font-size: $text-caption-size;
+  line-height: $text-caption-line-height;
   white-space: nowrap;
 }
 
 i.iconlocation {
   color: var(--global-theme-color);
-  font-size: 0.8rem;
+  font-size: $text-small-size;
 }
 
 i.iconinstitution {
   color: var(--global-theme-color);
-  font-size: 0.95rem;
-  margin-right: 0.3rem;
+  font-size: $text-body-size;
+  margin-right: $space-1;
 }
 
 i.icondepartment {
   color: var(--global-theme-color);
-  font-size: 0.8rem;
-  margin-right: 0.3rem;
+  font-size: $text-small-size;
+  margin-right: $space-1;
 }
 
 table.institution {
@@ -69,7 +69,8 @@ table.institution {
 }
 
 td.department {
-  font-size: 0.8rem;
+  font-size: $text-small-size;
+  line-height: $text-small-line-height;
 }
 
 div.container-links {
@@ -78,8 +79,8 @@ div.container-links {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin-top: $space-4;
+  margin-bottom: $space-2;
 }
 
 /*****************************
@@ -111,43 +112,45 @@ div.list-group {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 2rem;
+  margin-bottom: $space-8;
 }
 
 td.list-group-category {
   color: var(--global-theme-color);
-  margin-bottom: 0.5rem;
+  margin-bottom: $space-2;
 }
 
 td.list-group-category-icon {
-  font-size: 0.8rem;
+  font-size: $text-small-size;
   color: var(--global-theme-color);
   width: 1.4rem;
-  padding-right: 0.4rem;
+  padding-right: $space-2;
 }
 
 td.list-group-name {
-  font-size: 0.8rem;
+  font-size: $text-small-size;
 }
 
 td.list-group-level {
-  font-size: 0.8rem;
-  padding-left: 0.5rem;
+  font-size: $text-small-size;
+  padding-left: $space-2;
 }
 
 td.list-group-school {
-  font-size: 0.7rem;
-  padding-left: 0.5rem;
+  font-size: $text-caption-size;
+  line-height: $text-caption-line-height;
+  padding-left: $space-2;
   text-align: center;
 }
 
 p.list-group-time {
-  font-size: 0.7rem;
-  padding-left: 0.5rem;
+  font-size: $text-caption-size;
+  line-height: $text-caption-line-height;
+  padding-left: $space-2;
 }
 
 td.list-group-link {
-  padding-left: 0.5rem;
+  padding-left: $space-2;
 }
 
 /*****************************
@@ -162,8 +165,8 @@ a.anchor {
 }
 
 ul.timeline {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: $space-8;
+  margin-bottom: $space-8;
 }
 
 ul.timeline li {
@@ -176,8 +179,8 @@ ul.timeline li {
 span.badge-toc {
   color: var(--global-bg-color);
   background-color: var(--global-theme-color);
-  border-radius: 0.125rem;
-  padding: 0.125rem 0.5rem 0.125rem 0.5rem;
+  border-radius: $radius-sm;
+  padding: $space-1 $space-2;
   font-weight: 700 !important;
   display: inline-block;
   inline-size: fit-content;

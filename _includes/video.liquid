@@ -83,12 +83,8 @@
       {% if include['max-height'] %}
         height="{{ include.max-height }}"
       {% endif %}
-      {% if include.alt %}
-        alt="{{ include.alt }}"
-      {% endif %}
-      {% if include.title %}
-        title="{{ include.title }}"
-      {% endif %}
+      alt="{{ include.alt | default: '' }}"
+      title="{{ include.title | default: 'Embedded video' }}"
     />
   {% endif %}
   {% if include.caption %}

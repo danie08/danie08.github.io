@@ -13,8 +13,26 @@ layout: default
 {% endif %}
 
 {% assign url_beginning = page.url | slice: 0, 6 %}
+{% assign section_title = nil %}
+{% assign section_url = nil %}
+{% if page.collection == 'posts' or url_beginning == '/blog/' %}
+  {% assign section_title = 'Blog' %}
+  {% assign section_url = '/blog/' %}
+{% elsif page.collection == 'news' or page.url contains '/news/' %}
+  {% assign section_title = 'News' %}
+  {% assign section_url = '/news/' %}
+{% endif %}
 
 <div class="post">
+  {% if section_title %}
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <span aria-hidden="true">/</span>
+      <a href="{{ section_url | relative_url }}">{{ section_title }}</a>
+      <span aria-hidden="true">/</span>
+      <span>{{ page.title }}</span>
+    </nav>
+  {% endif %}
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">

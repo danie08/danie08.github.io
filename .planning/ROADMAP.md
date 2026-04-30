@@ -77,7 +77,7 @@ Wave 1:
 **Plans**: 1 plan (single wave — single file modified)
 
 Wave 1:
-  - [ ] 03-01-PLAN.md — Add plain-language note: fields to all four BibTeX entries; verify CONT-01/02/04 already satisfied
+  - [x] 03-01-PLAN.md — Add plain-language note: fields to all four BibTeX entries; verify CONT-01/02/04 already satisfied
 
 ### Phase 4: Pre-Launch Checks
 **Goal**: The site passes accessibility, contrast, mobile, and build-integrity checks before going live

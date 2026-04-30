@@ -9,3 +9,5 @@ description: Academic CV of Daniela Occhipinti — NLP researcher at FBK special
 toc:
   sidebar: left
 ---
+
+My work sits at the intersection of language, people, and computation, and I focus on how conversational systems can model speaker identity, interlocutor dynamics, and evaluation in more meaningful ways. The sections below trace that path from early work in language technologies to my current research agenda in persona-based dialogue generation.

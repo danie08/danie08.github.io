@@ -7,7 +7,7 @@ description: Daniela Occhipinti is an NLP researcher at Fondazione Bruno Kessler
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: photo_2026-04-30_18-00-03.jpg
   image_circular: false # crops the image to make it circular
   more_info: false
 
