@@ -54,17 +54,17 @@ _Filled by roadmapper._
 
 | REQ-ID | Phase | Status |
 |--------|-------|--------|
-| VIS-01 | — | — |
-| VIS-02 | — | — |
-| VIS-03 | — | — |
-| VIS-04 | — | — |
-| HOME-01 | — | — |
-| HOME-02 | — | — |
-| HOME-03 | — | — |
-| CONT-01 | — | — |
-| CONT-02 | — | — |
-| CONT-03 | — | — |
-| CONT-04 | — | — |
-| QUAL-01 | — | — |
-| QUAL-02 | — | — |
-| QUAL-03 | — | — |
+| VIS-01 | Phase 1 — Visual Foundation | Not started |
+| VIS-02 | Phase 1 — Visual Foundation | Not started |
+| VIS-03 | Phase 1 — Visual Foundation | Not started |
+| VIS-04 | Phase 1 — Visual Foundation | Not started |
+| HOME-01 | Phase 2 — Homepage Layout | Not started |
+| HOME-02 | Phase 2 — Homepage Layout | Not started |
+| HOME-03 | Phase 2 — Homepage Layout | Not started |
+| CONT-01 | Phase 3 — Content Accuracy | Not started |
+| CONT-02 | Phase 3 — Content Accuracy | Not started |
+| CONT-03 | Phase 3 — Content Accuracy | Not started |
+| CONT-04 | Phase 3 — Content Accuracy | Not started |
+| QUAL-01 | Phase 4 — Pre-Launch Checks | Not started |
+| QUAL-02 | Phase 4 — Pre-Launch Checks | Not started |
+| QUAL-03 | Phase 4 — Pre-Launch Checks | Not started |
