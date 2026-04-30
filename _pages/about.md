@@ -49,13 +49,6 @@ social: true # includes social icons at the bottom of the page
 
 <h2>What My Research Is About</h2>
 
-<div class="research-question-grid">
-  <div class="research-question-card">
-    <h3>Which profile dimensions drive persona-consistent dialogue?</h3>
-    <p>Speaker profiles can encode biography, personality, gender, and communication style. I study which of these matter most — biography turns out to be the strongest signal for character identity.</p>
-  </div>
-  <div class="research-question-card">
-    <h3>Do models adapt to their conversational partner, or just copy from profiles?</h3>
-    <p>Dialogue is dyadic: who you speak with shapes how you speak. I investigate whether models genuinely balance a speaker's identity with adaptation to the interlocutor — or whether they default to surface-level reproduction.</p>
-  </div>
+<div class="research-question-card research-question-full">
+  <p>Speaker profiles can encode biography, personality, gender, and communication style — but which dimensions actually matter? I find that biography is the strongest signal for character identity. Beyond representation, dialogue is inherently dyadic: who you speak with shapes how you speak. I investigate whether models genuinely balance a speaker's consistent identity with adaptation to different interlocutors, or whether they default to surface-level reproduction of the profiles they are given.</p>
 </div>
