@@ -47,8 +47,3 @@ social: true # includes social icons at the bottom of the page
   <p>At LanD-FBK I continue working on persona-based dialogue and interlocutor adaptation, alongside applied work on RAG systems, conversational agents, and LLM fine-tuning for production NLP.</p>
 </div>
 
-<h2>What My Research Is About</h2>
-
-<div class="research-question-card research-question-full">
-  <p>Speaker profiles can encode biography, personality, gender, and communication style — but which dimensions actually matter? I find that biography is the strongest signal for character identity. Beyond representation, dialogue is inherently dyadic: who you speak with shapes how you speak. I investigate whether models genuinely balance a speaker's consistent identity with adaptation to different interlocutors, or whether they default to surface-level reproduction of the profiles they are given.</p>
-</div>
