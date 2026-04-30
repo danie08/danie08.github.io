@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: Researcher at <a href='https://www.fbk.eu/en/'>Fondazione Bruno Kessler</a>.
-description: Daniela Occhipinti is a researcher at Fondazione Bruno Kessler (FBK) in Trento, Italy, specialising in persona-based dialogue generation, interlocutor-aware conversational AI, and the evaluation of dialogue systems.
+description: Daniela Occhipinti is an NLP researcher at Fondazione Bruno Kessler (FBK) specialising in persona-based dialogue generation — in particular, how dialogue systems can maintain a speaker's identity while adapting to different conversational partners.
 
 profile:
   align: right
@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 <p class="hero-thesis">
-  I study how conversational AI can adapt to people: their personas, their interlocutors, and the context that makes dialogue feel coherent, distinctive, and believable.
+  I study persona-based dialogue generation — not just how a system represents who you are, but how it adapts to <em>who you are speaking with</em>.
 </p>
 
 <div class="homepage-highlights" aria-label="Areas of expertise">
@@ -39,27 +39,27 @@ social: true # includes social icons at the bottom of the page
 </p>
 
 <p>
-  I completed a PhD in Information Engineering and Computer Science at the <a href="https://www.unitn.it/en/">University of Trento</a> and FBK, where I focused on persona-based dialogue generation, interlocutor-aware conversational modeling, and the evaluation of dialogue systems. Across datasets, model behavior, and human evaluation, my work asks how language models can move from generic responses to conversations that feel grounded in who is speaking and who they are speaking to.
+  I completed a PhD in Information Engineering and Computer Science at the <a href="https://www.unitn.it/en/">University of Trento</a> and FBK, with honors, working on persona-based dialogue generation. My thesis investigates a largely overlooked dimension of this problem: dialogue is inherently dyadic. How we speak depends not only on who we are, but on whom we are speaking with. I study how models can balance maintaining a speaker's consistent identity with adapting to different conversational partners — and what happens when they fail to do so.
 </p>
 
 <div class="homepage-currently">
   <h2>Currently</h2>
-  <p>I am building research around persona-based dialogue, interlocutor adaptation, and evaluation strategies that make conversational systems more useful and coherent.</p>
+  <p>At LanD-FBK I continue working on persona-based dialogue and interlocutor adaptation, alongside applied work on RAG systems, conversational agents, and LLM fine-tuning for production NLP.</p>
 </div>
 
 <h2>What My Research Is About</h2>
 
 <div class="research-question-grid">
   <div class="research-question-card">
-    <h3>How should a dialogue system represent a person?</h3>
-    <p>I study which aspects of a speaker, such as biography, communication style, personality, or preferences, actually help a model generate more coherent dialogue.</p>
+    <h3>Which profile dimensions actually drive persona-consistent dialogue?</h3>
+    <p>A speaker profile can include biography, personality, gender, and communication style. I investigate which of these dimensions models rely on most — and find that biography is the most informative signal for capturing character identity.</p>
   </div>
   <div class="research-question-card">
-    <h3>What changes when the interlocutor matters too?</h3>
-    <p>My work looks at how dialogue generation changes when a model must adapt not only to one target persona, but to the relationship between two speakers.</p>
+    <h3>Do models truly adapt to their conversational partner, or just copy from profiles?</h3>
+    <p>When a model has access to both the target speaker's and the interlocutor's profiles, does it learn to balance them — or does it default to surface-level reproduction? My work shows models adapt more easily to unfamiliar topics than to unfamiliar interlocutors, revealing that <em>who you speak with</em> matters more than <em>what you speak about</em>.</p>
   </div>
   <div class="research-question-card">
-    <h3>How do we know these models are improving for the right reasons?</h3>
-    <p>I investigate evaluation, data quality, and post-editing to understand whether better outputs reflect deeper conversational adaptation or just superficial pattern matching.</p>
+    <h3>What happens when interlocutor information is withheld — or leaks through anyway?</h3>
+    <p>Whether a model sees its conversational partner's profile during training, at inference, or not at all fundamentally shapes what it learns. I study these disclosure asymmetries and find that persona content leaks through interlocutor turns even when the target biography is only indirectly available.</p>
   </div>
 </div>
