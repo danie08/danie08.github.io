@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 <p class="hero-thesis">
-  I study how dialogue agents can stay in character as the persona they are playing — and adapt to the person they are speaking with.
+  I study how dialogue agents can stay in character as the persona they are playing, while adapting to the person they are speaking with.
 </p>
 
 <div class="homepage-highlights" aria-label="Areas of expertise">
@@ -35,15 +35,10 @@ social: true # includes social icons at the bottom of the page
 </div>
 
 <p>
-  I am a Researcher in the Language and Dialogue Technologies (<a href="https://land.fbk.eu/">LanD</a>) group at Fondazione Bruno Kessler (<a href="https://www.fbk.eu/en/">FBK</a>) in Trento, Italy. My path into NLP began in Digital Humanities at the <a href="https://www.unipi.it/en/">University of Pisa</a>, where I became interested in language technologies as a way to study people, interpretation, and communication through computational methods.
+  I research and build conversational AI. As a Researcher at the Language and Dialogue Technologies (<a href="https://land.fbk.eu/">LanD</a>) group at Fondazione Bruno Kessler (<a href="https://www.fbk.eu/en/">FBK</a>) in Trento, I work on persona-based dialogue generation alongside production-ready NLP systems — RAG pipelines, conversational agents, and LLM fine-tuning for applied settings.
 </p>
 
 <p>
-  I completed a PhD in Information Engineering and Computer Science at the <a href="https://www.unitn.it/en/">University of Trento</a> and FBK, with honors. My thesis addresses a gap in persona-based dialogue research: most systems learn to generate responses consistent with the persona the agent is playing, but ignore the conversational partner. I study how models can balance staying in character with adapting to different interlocutors — and where the two demands conflict.
+  I completed a PhD in Information Engineering and Computer Science at the <a href="https://www.unitn.it/en/">University of Trento</a> and FBK, with honors. My thesis addresses a gap in persona-based dialogue research: most systems learn to generate responses consistent with the persona the agent is playing, but ignore the conversational partner. I study how models can balance staying in character with adapting to different interlocutors.
 </p>
-
-<div class="homepage-currently">
-  <h2>Currently</h2>
-  <p>At LanD-FBK I continue working on persona-based dialogue and interlocutor adaptation, alongside applied work on RAG systems, conversational agents, and LLM fine-tuning for production NLP.</p>
-</div>
 
