@@ -1725,3 +1725,93 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+// ─── Selected Papers Showcase (Phase 2, D-04/D-05) ───────────────────────────
+// Targets bib.liquid HTML output within the homepage showcase wrapper only.
+// bib.liquid is read-only — do not modify it. Selectors derived from its output.
+// Wrapper div (.selected-papers-showcase) is added in _layouts/about.liquid.
+
+.selected-papers-showcase {
+  .publications {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  ol.bibliography {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  ol.bibliography li {
+    position: relative;
+    padding: $space-6 $space-4 $space-6 calc(#{$space-4} + 4px);
+    border-bottom: 1px solid var(--global-divider-color);
+    border-left: 3px solid var(--global-theme-color);
+    margin-left: 0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  // Title — increased prominence (D-05)
+  // Weight 600, serif, 1.125rem — overrides global font-weight: 700 on .title
+  ol.bibliography li .title {
+    font-family: var(--font-serif);
+    font-size: $text-title-3;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--global-text-color);
+    margin-bottom: $space-2;
+  }
+
+  // Author line — less dominant (D-05)
+  ol.bibliography li .author {
+    font-size: $text-caption-size;
+    font-weight: 400;
+    color: var(--global-text-color-light);
+    margin-bottom: $space-2;
+  }
+
+  // Venue / year — reduced noise (D-05)
+  ol.bibliography li .periodical {
+    font-size: $text-caption-size;
+    font-weight: 400;
+    color: var(--global-text-color-light);
+    margin-bottom: $space-2;
+
+    em {
+      font-style: normal;
+      color: var(--global-text-color-light);
+    }
+  }
+
+  // Venue badge — suppress within showcase; visible on /publications/ page
+  .abbr {
+    display: none;
+  }
+
+  // Links row — keep compact
+  ol.bibliography li .links {
+    margin-top: $space-2;
+  }
+
+  // Bootstrap .row inside li — remove default gutters
+  ol.bibliography li .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  ol.bibliography li .col-sm-10,
+  ol.bibliography li .col-sm-8 {
+    padding-left: 0;
+  }
+}
+
+// Showcase mobile padding reduction
+@media (max-width: 575.98px) {
+  .selected-papers-showcase ol.bibliography li {
+    padding: $space-4 $space-3 $space-4 calc(#{$space-3} + 4px);
+  }
+}

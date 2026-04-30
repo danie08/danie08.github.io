@@ -16,6 +16,7 @@ module.exports = {
       /^btn-outline-link/,
       /^cv-intro/,
       /^footer-/,
+      /^selected-papers-showcase/,
     ],
   },
 };
