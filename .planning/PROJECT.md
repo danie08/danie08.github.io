@@ -12,12 +12,11 @@ A visitor should immediately understand who Daniela is as a researcher — her p
 
 ### Validated
 
-(None yet — ship to validate)
+- [x] Custom color palette and typography — Validated in Phase 1: Visual Foundation
+- [x] Homepage layout: short personal bio → research pitch/vision → featured publications — Validated in Phase 2: Homepage Layout
 
 ### Active
 
-- [ ] Custom color palette and typography that feel intentional and distinctive, not al-folio defaults
-- [ ] Homepage layout: short personal bio → research pitch/vision → featured publications and projects
 - [ ] Research interests section that clearly surfaces what questions Daniela is working on and why they matter
 - [ ] Visual consistency across all pages — about, publications, CV, projects share a cohesive look
 - [ ] News section updated to reflect recent achievements (currently stale)
@@ -50,7 +49,7 @@ A visitor should immediately understand who Daniela is as a researcher — her p
 | Custom design over theme swap | Swapping to a new theme risks breaking existing customizations | — Pending |
 
 ---
-*Last updated: 2026-04-30 after initialization*
+*Last updated: 2026-04-30 — Phase 2 (Homepage Layout) complete*
 
 ## Evolution
 
