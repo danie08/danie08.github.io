@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: in_progress
-last_updated: "2026-04-30T12:00:00Z"
+last_updated: "2026-04-30T14:00:00Z"
 progress:
   total_phases: 4
   completed_phases: 0
   total_plans: 3
-  completed_plans: 2
+  completed_plans: 3
 ---
 
 # Project State
@@ -18,13 +18,13 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-30)
 
 **Core value:** A visitor should immediately understand who Daniela is as a researcher — her personality and the research vision that drives her — without the site feeling like a CV template.
-**Current focus:** Phase 1 — Visual Foundation (Plan 03 next)
+**Current focus:** Phase 2 — Homepage Layout (Phase 1 complete)
 
 ## Status
 
 | Phase | Status | Started | Completed |
 |-------|--------|---------|-----------|
-| 1. Visual Foundation | In progress | 2026-04-30 | — |
+| 1. Visual Foundation | Complete | 2026-04-30 | 2026-04-30 |
 | 2. Homepage Layout | Not started | — | — |
 | 3. Content Accuracy | Not started | — | — |
 | 4. Pre-Launch Checks | Not started | — | — |
@@ -35,7 +35,7 @@ See: .planning/PROJECT.md (updated 2026-04-30)
 |------|------|--------|--------|
 | 01 | Color Tokens | Complete | 3acf32b |
 | 02 | Typography | Complete | 80c2702 |
-| 03 | Footer + PurgeCSS | Not started | — |
+| 03 | Footer + PurgeCSS | Complete | 16e9d06 |
 
 ## Decisions
 
@@ -44,6 +44,8 @@ See: .planning/PROJECT.md (updated 2026-04-30)
 - Font tokens `--font-sans` and `--font-serif` added to both :root and dark blocks, consumed by Plan 02 (Plan 01)
 - Used var(--font-sans) / var(--font-serif) token references (not hardcoded stacks) to preserve token indirection for future font swaps (Plan 02)
 - h4/h5/h6 left sans-serif via body inheritance — serif scope is h1/h2/h3 only per D-07 (Plan 02)
+- Used safelist.greedy (not bare safelist array) to match compound selectors like .btn-primary-link:hover (Plan 03)
+- Both footer branches updated identically — toggling footer_fixed cannot resurrect al-folio attribution (Plan 03)
 
 ## Artifacts
 
@@ -57,6 +59,7 @@ See: .planning/PROJECT.md (updated 2026-04-30)
 | Codebase map | `.planning/codebase/` |
 | Plan 01 Summary | `.planning/phases/01-visual-foundation/01-01-SUMMARY.md` |
 | Plan 02 Summary | `.planning/phases/01-visual-foundation/01-02-SUMMARY.md` |
+| Plan 03 Summary | `.planning/phases/01-visual-foundation/01-03-SUMMARY.md` |
 
 ## Performance Metrics
 
@@ -64,6 +67,7 @@ See: .planning/PROJECT.md (updated 2026-04-30)
 |-------|------|----------|-------|-------|
 | 01-visual-foundation | 01 | 2m 12s | 2/2 | 2 |
 | 01-visual-foundation | 02 | 4m | 2/2 | 3 |
+| 01-visual-foundation | 03 | 8m | 3/3 | 3 |
 
 ## Notes
 
@@ -73,4 +77,6 @@ See: .planning/PROJECT.md (updated 2026-04-30)
 - Full workflow agents enabled (research, plan-check, verifier)
 - Plan 01 completed 2026-04-30: indigo-plum palette + font tokens in SCSS token system
 - Plan 02 completed 2026-04-30: Inter + Source Serif 4 font loading; body/heading font-family wired via CSS tokens
-- Last session: 2026-04-30T12:00:00Z — Completed 01-visual-foundation/01-PLAN-02.md
+- Plan 03 completed 2026-04-30: footer_text attribution removed, footer.liquid redesigned (both branches), PurgeCSS safelist added
+- Phase 1 (Visual Foundation) complete 2026-04-30: VIS-01, VIS-02, VIS-03, VIS-04 all satisfied
+- Last session: 2026-04-30T14:00:00Z — Completed 01-visual-foundation/01-PLAN-03.md

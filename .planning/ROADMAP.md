@@ -12,7 +12,7 @@ The redesign moves from the generic al-folio default look to a distinctive, warm
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Visual Foundation** - Custom color palette and typography applied site-wide via the CSS token system
+- [x] **Phase 1: Visual Foundation** - Custom color palette and typography applied site-wide via the CSS token system
 - [ ] **Phase 2: Homepage Layout** - Section hierarchy reordered so bio and research identity lead; selected papers visually improved
 - [ ] **Phase 3: Content Accuracy** - PhD status, bio, paper summaries, news, and SEO meta descriptions updated
 - [ ] **Phase 4: Pre-Launch Checks** - Accessibility CI re-enabled; WCAG contrast, PurgeCSS safelist, and mobile viewports verified
@@ -37,7 +37,7 @@ Wave 1:
   - [x] 01-PLAN-02.md — Typography (Google Fonts URL + body/heading font-family wiring)
 
 **Wave 3** *(blocked on Wave 2 completion)*:
-  - [ ] 01-PLAN-03.md — Footer redesign + PurgeCSS safelist
+  - [x] 01-PLAN-03.md — Footer redesign + PurgeCSS safelist
 
 **Cross-cutting constraints:**
 - Dark mode is live (`enable_darkmode: true`): every new `:root` token MUST have a paired `html[data-theme="dark"]` value
@@ -85,7 +85,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Visual Foundation | 2/3 | In progress | - |
+| 1. Visual Foundation | 3/3 | Complete | 2026-04-30 |
 | 2. Homepage Layout | 0/TBD | Not started | - |
 | 3. Content Accuracy | 0/TBD | Not started | - |
 | 4. Pre-Launch Checks | 0/TBD | Not started | - |
