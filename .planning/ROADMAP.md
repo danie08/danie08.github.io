@@ -28,7 +28,22 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Body text renders in Inter and headings render in Source Serif 4 site-wide — Roboto is not loaded or applied
   3. The footer no longer contains any "powered by al-folio" attribution text or link
   4. PurgeCSS safelist is configured so that all new custom CSS class families survive a production build without being stripped
-**Plans**: TBD
+**Plans**: 3 plans (strictly sequential — shared file conflicts prevent parallelism)
+
+Wave 1:
+  - [ ] 01-PLAN-01.md — Color tokens (palette primitives + semantic tokens, light + dark)
+
+**Wave 2** *(blocked on Wave 1 completion)*:
+  - [ ] 01-PLAN-02.md — Typography (Google Fonts URL + body/heading font-family wiring)
+
+**Wave 3** *(blocked on Wave 2 completion)*:
+  - [ ] 01-PLAN-03.md — Footer redesign + PurgeCSS safelist
+
+**Cross-cutting constraints:**
+- Dark mode is live (`enable_darkmode: true`): every new `:root` token MUST have a paired `html[data-theme="dark"]` value
+- Never hardcode hex values in component SCSS — always use `var(--global-*)` tokens
+- `_config.yml` touched by Plans 02 and 03 — each targets a different key; preserve the other plan's region
+
 **UI hint**: yes
 
 ### Phase 2: Homepage Layout
@@ -70,7 +85,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Visual Foundation | 0/TBD | Not started | - |
+| 1. Visual Foundation | 0/3 | Not started | - |
 | 2. Homepage Layout | 0/TBD | Not started | - |
 | 3. Content Accuracy | 0/TBD | Not started | - |
 | 4. Pre-Launch Checks | 0/TBD | Not started | - |
