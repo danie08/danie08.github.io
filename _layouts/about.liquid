@@ -28,7 +28,7 @@ layout: default
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=author_name
             cache_bust=true
           %}
         {% endif %}
@@ -43,7 +43,7 @@ layout: default
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+        <a href="{{ '/news/' | relative_url }}" class="section-link">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -51,7 +51,7 @@ layout: default
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/blog/' | relative_url }}" class="section-link">latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
@@ -59,10 +59,19 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Main publications</a>
+        <a href="{{ '/publications/' | relative_url }}" class="section-link">Main publications</a>
       </h2>
-      {% include selected_papers.liquid %}
+      <div class="selected-papers-showcase">
+        {% include selected_papers.liquid %}
+      </div>
     {% endif %}
+
+    <div class="collaboration-cta">
+      <h2>Let&apos;s Connect</h2>
+      <p>
+        I am always happy to hear from researchers, students, and collaborators interested in persona-based dialogue generation, conversational evaluation, and language technologies that stay close to human interaction.
+      </p>
+    </div>
 
     <!-- Social -->
     {% if page.social %}
