@@ -24,7 +24,7 @@ $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
 
-$grey-color: #828282 !default;
+$grey-color: #767676 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
 $grey-color-dark: #1c1c1d;
 $grey-900: #212529;
@@ -32,10 +32,48 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Palette — indigo-plum (Phase 1 Visual Foundation)
+$plum-color: #5C4B8A;
+$plum-light: #9B8CC4;
+$plum-bg-dark: #1C1A24;
+$plum-card-dark: #252330;
+$warm-white: #FAFAF8;
+$warm-black: #1A1A1A;
+$warm-grey: #5E5A6E;
+$warm-grey-light: #9B95AA;
+$warm-text-dark: #E8E3F0;
+
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($plum-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
+
+// Design tokens
+$space-1: 0.25rem !default;
+$space-2: 0.5rem !default;
+$space-3: 0.75rem !default;
+$space-4: 1rem !default;
+$space-6: 1.5rem !default;
+$space-8: 2rem !default;
+$space-12: 3rem !default;
+
+$radius-sm: 0.25rem !default;
+$radius-md: 0.5rem !default;
+$radius-pill: 999px !default;
+
+// Font stacks (Phase 1 Visual Foundation)
+$font-sans: "Inter", system-ui, -apple-system, sans-serif;
+$font-serif: "Source Serif 4", "Georgia", serif;
+
+$text-body-size: 1rem !default;
+$text-body-line-height: 1.65 !default;
+$text-small-size: 0.875rem !default;
+$text-small-line-height: 1.5 !default;
+$text-caption-size: 0.75rem !default;
+$text-caption-line-height: 1.4 !default;
+$text-title-1: clamp(2rem, 4vw, 3rem) !default;
+$text-title-2: 1.5rem !default;
+$text-title-3: 1.125rem !default;
 
 // Font awesome location
 $fa-font-path: "../webfonts";
