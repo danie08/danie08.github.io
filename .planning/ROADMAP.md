@@ -54,7 +54,15 @@ Wave 1:
   1. The personal bio and origin story appear above the highlights/credentials grid when a visitor loads the homepage
   2. The subtitle beneath Daniela's name leads with her research identity ("NLP Researcher, persona-based dialogue generation") rather than just her employer title
   3. The selected papers section on the homepage uses a visual layout that is clearly distinct from the default al-folio card grid
-**Plans**: TBD
+**Plans**: 3 plans (Wave 1: plans 01 + 02 parallel; Wave 2: plan 03)
+
+**Wave 1** *(independent — no file conflicts)*:
+  - [ ] 02-01-PLAN.md — about.md edits: subtitle change (D-03) + section reorder (D-01)
+  - [ ] 02-02-PLAN.md — about.liquid: selected-papers-showcase wrapper div (D-04)
+
+**Wave 2** *(blocked on Wave 2 completion — 02-02 must run first)*:
+  - [ ] 02-03-PLAN.md — _base.scss: 3-column grid (D-07) + mobile breakpoint fix + showcase SCSS (D-05); purgecss.config.js safelist (D-06)
+
 **UI hint**: yes
 
 ### Phase 3: Content Accuracy
@@ -86,6 +94,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Visual Foundation | 3/3 | Complete | 2026-04-30 |
-| 2. Homepage Layout | 0/TBD | Not started | - |
+| 2. Homepage Layout | 0/3 | Not started | - |
 | 3. Content Accuracy | 0/TBD | Not started | - |
 | 4. Pre-Launch Checks | 0/TBD | Not started | - |
