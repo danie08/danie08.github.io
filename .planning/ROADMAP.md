@@ -74,7 +74,10 @@ Wave 1:
   2. The bio and about page consistently state that Daniela completed her PhD in 2025 with honors — no "completing a PhD" phrasing remains
   3. Each paper on the publications page includes a plain-language one-line description (not raw BibTeX abstract)
   4. Pasting the site URL or any page URL into a social media link preview tool shows a correct title and meta description
-**Plans**: TBD
+**Plans**: 1 plan (single wave — single file modified)
+
+Wave 1:
+  - [ ] 03-01-PLAN.md — Add plain-language note: fields to all four BibTeX entries; verify CONT-01/02/04 already satisfied
 
 ### Phase 4: Pre-Launch Checks
 **Goal**: The site passes accessibility, contrast, mobile, and build-integrity checks before going live
