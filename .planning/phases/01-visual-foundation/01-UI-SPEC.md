@@ -58,12 +58,14 @@ The existing text scale in `_variables.scss` is preserved. New declarations add 
 
 | Role | Token / Size | Weight | Line Height | Font Family |
 |------|-------------|--------|-------------|-------------|
+| Small / Label / Caption | `$text-small-size` = 0.875rem (14px) | 400 (regular) | 1.5 | Inter |
 | Body | `$text-body-size` = 1rem (16px) | 400 (regular) | `$text-body-line-height` = 1.65 | Inter |
-| Small / Label | `$text-small-size` = 0.875rem (14px) | 400 (regular) | 1.5 | Inter |
-| Caption | `$text-caption-size` = 0.75rem (12px) | 400 (regular) | 1.4 | Inter |
-| Subheading (h3) | `$text-title-3` = 1.125rem (18px) | 600 (semibold) | 1.3 | Source Serif 4 |
-| Section heading (h2) | `$text-title-2` = 1.5rem (24px) | 600 (semibold) | 1.25 | Source Serif 4 |
+| Section heading (h2) and Subheading (h3) | `$text-title-2` = 1.5rem (24px) | 600 (semibold) | 1.25 | Source Serif 4 |
 | Page heading (h1) | `$text-title-1` = clamp(2rem, 4vw, 3rem) | 400 (light-medium) | 1.2 | Source Serif 4 |
+
+**Consolidation notes:**
+- Caption (12px) is absorbed into the Small/Label row at 14px. Use `$text-small-size` (14px) for captions, metadata, and labels — the distinction between 12px and 14px is not warranted at this site's scale.
+- Subheading h3 (18px) is collapsed into the h2 row at 24px. Both h2 and h3 use `$text-title-2` (24px, semibold, Source Serif 4). If visual differentiation between h2 and h3 is needed in a future phase, it can be achieved through margin/spacing, not a new font-size step.
 
 **Weight contract:** Body and labels use weight 400 only. Headings use 400 for h1 (elegant, not heavy) and 600 for h2/h3 (clear hierarchy). Weight 700 is loaded in the Google Fonts URL but not used as a default heading weight — reserve for bold emphasis within body copy only.
 
