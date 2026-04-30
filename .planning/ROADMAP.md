@@ -31,7 +31,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 3 plans (strictly sequential — shared file conflicts prevent parallelism)
 
 Wave 1:
-  - [ ] 01-PLAN-01.md — Color tokens (palette primitives + semantic tokens, light + dark)
+  - [x] 01-PLAN-01.md — Color tokens (palette primitives + semantic tokens, light + dark)
 
 **Wave 2** *(blocked on Wave 1 completion)*:
   - [ ] 01-PLAN-02.md — Typography (Google Fonts URL + body/heading font-family wiring)
@@ -85,7 +85,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Visual Foundation | 0/3 | Not started | - |
+| 1. Visual Foundation | 1/3 | In progress | - |
 | 2. Homepage Layout | 0/TBD | Not started | - |
 | 3. Content Accuracy | 0/TBD | Not started | - |
 | 4. Pre-Launch Checks | 0/TBD | Not started | - |
