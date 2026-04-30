@@ -57,11 +57,11 @@ Wave 1:
 **Plans**: 3 plans (Wave 1: plans 01 + 02 parallel; Wave 2: plan 03)
 
 **Wave 1** *(independent — no file conflicts)*:
-  - [ ] 02-01-PLAN.md — about.md edits: subtitle change (D-03) + section reorder (D-01)
-  - [ ] 02-02-PLAN.md — about.liquid: selected-papers-showcase wrapper div (D-04)
+  - [x] 02-01-PLAN.md — about.md edits: subtitle change (D-03) + section reorder (D-01)
+  - [x] 02-02-PLAN.md — about.liquid: selected-papers-showcase wrapper div (D-04)
 
 **Wave 2** *(blocked on Wave 1 completion — 02-02 must run first)*:
-  - [ ] 02-03-PLAN.md — _base.scss: 3-column grid (D-07) + mobile breakpoint fix + showcase SCSS (D-05); purgecss.config.js safelist (D-06)
+  - [x] 02-03-PLAN.md — _base.scss: 3-column grid (D-07) + mobile breakpoint fix + showcase SCSS (D-05); purgecss.config.js safelist (D-06)
 
 **UI hint**: yes
 
