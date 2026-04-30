@@ -18,14 +18,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-30)
 
 **Core value:** A visitor should immediately understand who Daniela is as a researcher — her personality and the research vision that drives her — without the site feeling like a CV template.
-**Current focus:** Phase 2 — Homepage Layout (Phase 1 complete)
+**Current focus:** Phase 2 — Homepage Layout (UI-SPEC approved, ready for planning)
 
 ## Status
 
 | Phase | Status | Started | Completed |
 |-------|--------|---------|-----------|
 | 1. Visual Foundation | Complete | 2026-04-30 | 2026-04-30 |
-| 2. Homepage Layout | Not started | — | — |
+| 2. Homepage Layout | Ready to execute | 2026-04-30 | — |
 | 3. Content Accuracy | Not started | — | — |
 | 4. Pre-Launch Checks | Not started | — | — |
 
@@ -80,3 +80,5 @@ See: .planning/PROJECT.md (updated 2026-04-30)
 - Plan 03 completed 2026-04-30: footer_text attribution removed, footer.liquid redesigned (both branches), PurgeCSS safelist added
 - Phase 1 (Visual Foundation) complete 2026-04-30: VIS-01, VIS-02, VIS-03, VIS-04 all satisfied
 - Last session: 2026-04-30T14:00:00Z — Completed 01-visual-foundation/01-PLAN-03.md
+- Phase 2 UI-SPEC approved 2026-04-30: homepage layout design contract — section reorder, subtitle, selected-papers showcase, 3-col highlights grid. Stopped at: Phase 2 UI-SPEC approved
+- Phase 2 planning complete 2026-04-30: 3 plans in 2 waves; verification passed all 12 dimensions; critical landmine (mobile breakpoint) and margin-top fix documented and handled in Plan 03
