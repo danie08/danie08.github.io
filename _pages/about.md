@@ -51,15 +51,11 @@ social: true # includes social icons at the bottom of the page
 
 <div class="research-question-grid">
   <div class="research-question-card">
-    <h3>Which profile dimensions actually drive persona-consistent dialogue?</h3>
-    <p>A speaker profile can include biography, personality, gender, and communication style. I investigate which of these dimensions models rely on most — and find that biography is the most informative signal for capturing character identity.</p>
+    <h3>Which profile dimensions drive persona-consistent dialogue?</h3>
+    <p>Speaker profiles can encode biography, personality, gender, and communication style. I study which of these matter most — biography turns out to be the strongest signal for character identity.</p>
   </div>
   <div class="research-question-card">
-    <h3>Do models truly adapt to their conversational partner, or just copy from profiles?</h3>
-    <p>When a model has access to both the target speaker's and the interlocutor's profiles, does it learn to balance them — or does it default to surface-level reproduction? My work shows models adapt more easily to unfamiliar topics than to unfamiliar interlocutors, revealing that <em>who you speak with</em> matters more than <em>what you speak about</em>.</p>
-  </div>
-  <div class="research-question-card">
-    <h3>What happens when interlocutor information is withheld — or leaks through anyway?</h3>
-    <p>Whether a model sees its conversational partner's profile during training, at inference, or not at all fundamentally shapes what it learns. I study these disclosure asymmetries and find that persona content leaks through interlocutor turns even when the target biography is only indirectly available.</p>
+    <h3>Do models adapt to their conversational partner, or just copy from profiles?</h3>
+    <p>Dialogue is dyadic: who you speak with shapes how you speak. I investigate whether models genuinely balance a speaker's identity with adaptation to the interlocutor — or whether they default to surface-level reproduction.</p>
   </div>
 </div>
