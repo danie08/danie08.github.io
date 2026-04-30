@@ -1,10 +1,11 @@
 ---
 phase: 2
 slug: homepage-layout
-status: draft
+status: approved
 shadcn_initialized: false
 preset: none
 created: 2026-04-30
+reviewed_at: 2026-04-30
 ---
 
 # Phase 2 — UI Design Contract
@@ -52,14 +53,21 @@ Exceptions: none.
 
 All type tokens from `_sass/_variables.scss`. Do NOT introduce new size values.
 
+Exactly 4 sizes declared in this spec. Exactly 2 weights used.
+
 | Role | Token / Value | Weight | Line Height | Font | Usage |
 |------|--------------|--------|-------------|------|-------|
-| Body | `$text-body-size` = 1rem (16px) | 400 | `$text-body-line-height` = 1.65 | `var(--font-sans)` Inter | Bio paragraphs, highlight item body, paper author lines |
-| Label | `$text-caption-size` = 0.75rem (12px) | 700 | 1.4 | `var(--font-sans)` Inter | `.highlight-label` (uppercase, letter-spacing 0.08em), venue badge reduced display |
-| Small | `$text-small-size` = 0.875rem (14px) | 400 | `$text-small-line-height` = 1.5 | `var(--font-sans)` Inter | Author lines in `.selected-papers-showcase`, `.periodical` venue text |
+| Label | `$text-caption-size` = 0.75rem (12px) | 600 | `$text-caption-line-height` = 1.4 | `var(--font-sans)` Inter | `.highlight-label` (uppercase, letter-spacing 0.08em); author lines in `.selected-papers-showcase`; venue text (`.periodical`) |
+| Body | `$text-body-size` = 1rem (16px) | 400 | `$text-body-line-height` = 1.65 | `var(--font-sans)` Inter | Bio paragraphs, highlight item body |
 | Title (paper) | `$text-title-3` = 1.125rem (18px) | 600 | 1.3 | `var(--font-serif)` Source Serif 4 | Paper `.title` within `.selected-papers-showcase` — increased prominence per D-05 |
-| Hero | `clamp(1.2rem, 2.2vw, 1.55rem)` | 400 | 1.45 | `var(--font-sans)` Inter | `.hero-thesis` — already declared, do not re-declare |
-| Section heading | `$text-title-2` = 1.5rem (24px) | 400–600 | 1.2 | `var(--font-serif)` Source Serif 4 | `h2` section labels (News, Main publications) — inherited from h2 rule in `_base.scss` |
+| Hero | `clamp(1.2rem, 2.2vw, 1.55rem)` | 400 | 1.45 | `var(--font-sans)` Inter | `.hero-thesis` — already declared in `_base.scss`, do not re-declare |
+
+Section headings (`h2` at `$text-title-2` = 1.5rem/24px, weight 400–600): inherited from existing `h2` rule in `_base.scss`. Not re-declared in this spec — the 4-size limit is maintained by treating it as a site-level inherited style.
+
+**Weight pairing: {400, 600} — Option A.**
+- Weight 400: body text, hero text, author lines, venue text.
+- Weight 600: paper titles, `.highlight-label`. The uppercase + `letter-spacing: 0.08em` on `.highlight-label` provides additional visual differentiation beyond weight alone.
+- Weight 700 is NOT used anywhere in this phase.
 
 **Paper title specifics (critical for D-05 — increased prominence):**
 - Font family: `var(--font-serif)` (Source Serif 4)
@@ -69,12 +77,12 @@ All type tokens from `_sass/_variables.scss`. Do NOT introduce new size values.
 - This overrides bib.liquid's default `.title` styling within the showcase wrapper only.
 
 **Author line specifics (critical for D-05 — less dominant):**
-- Font size: `$text-small-size` = 0.875rem
+- Font size: `$text-caption-size` = 0.75rem (12px)
 - Font weight: 400
 - Color: `var(--global-text-color-light)` — muted, not primary text color
 
 **Venue badge specifics (critical for D-05 — reduced noise):**
-- `.periodical` font size: `$text-caption-size` = 0.75rem
+- `.periodical` font size: `$text-caption-size` = 0.75rem (12px)
 - Color: `var(--global-text-color-light)`
 - No bold weight — weight 400 only
 - No border or background — plain text, no badge styling within showcase
@@ -225,9 +233,10 @@ Write as a single nested block. All selectors are prefixed with `.selected-paper
   }
 
   // Title — increased prominence (D-05)
+  // Weight 600, serif, 1.125rem — differentiated from body (400, sans, 1rem)
   ol.bibliography li .title {
     font-family: var(--font-serif);
-    font-size: $text-title-3;   // 1.125rem
+    font-size: $text-title-3;   // 1.125rem / 18px
     font-weight: 600;
     line-height: 1.3;
     color: var(--global-text-color);
@@ -235,16 +244,18 @@ Write as a single nested block. All selectors are prefixed with `.selected-paper
   }
 
   // Author line — less dominant (D-05)
+  // Uses caption size (0.75rem/12px) and weight 400; muted color
   ol.bibliography li .author {
-    font-size: $text-small-size;   // 0.875rem
+    font-size: $text-caption-size;   // 0.75rem / 12px
     font-weight: 400;
     color: var(--global-text-color-light);
     margin-bottom: $space-2;
   }
 
   // Venue / year — reduced noise (D-05)
+  // Same caption size and muted color as author lines
   ol.bibliography li .periodical {
-    font-size: $text-caption-size;  // 0.75rem
+    font-size: $text-caption-size;  // 0.75rem / 12px
     font-weight: 400;
     color: var(--global-text-color-light);
     margin-bottom: $space-2;
