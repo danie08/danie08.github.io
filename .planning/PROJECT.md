@@ -49,7 +49,7 @@ A visitor should immediately understand who Daniela is as a researcher — her p
 | Custom design over theme swap | Swapping to a new theme risks breaking existing customizations | — Pending |
 
 ---
-*Last updated: 2026-04-30 — Phase 2 (Homepage Layout) complete*
+*Last updated: 2026-04-30 — Phase 3 (Content Accuracy) complete*
 
 ## Evolution
 
