@@ -1,16 +1,29 @@
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
-      &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
-      {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.footer_text }}
-      {% if site.impressum_path %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-      {% endif %}
-      {% if site.last_updated %}
-        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-      {% endif %}
+      <div class="footer-copyright">
+        &copy; Copyright {{ site.time | date: '%Y' }}
+        {{ site.first_name }}
+        {{ site.middle_name }}
+        {{ site.last_name }}. {{ site.footer_text }}
+        {% if site.impressum_path %}
+          <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+        {% endif %}
+        {% if site.last_updated %}
+          Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+        {% endif %}
+      </div>
+      <div class="footer-social">
+        {% include social.liquid %}
+      </div>
+      <div class="footer-nav">
+        {% assign sorted_pages = site.pages | sort: "nav_order" %}
+        {% for p in sorted_pages %}
+          {% if p.nav and p.nav == true %}
+            <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </footer>
 {% else %}
@@ -18,18 +31,30 @@
     {% if site.newsletter.enabled %}
       {% include newsletter.liquid %}
     {% endif %}
-
     <div class="container">
-      &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
-      {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.footer_text }}
-      {% if site.impressum_path %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-      {% endif %}
-      {% if site.last_updated %}
-        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-      {% endif %}
+      <div class="footer-copyright">
+        &copy; Copyright {{ site.time | date: '%Y' }}
+        {{ site.first_name }}
+        {{ site.middle_name }}
+        {{ site.last_name }}. {{ site.footer_text }}
+        {% if site.impressum_path %}
+          <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+        {% endif %}
+        {% if site.last_updated %}
+          Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+        {% endif %}
+      </div>
+      <div class="footer-social">
+        {% include social.liquid %}
+      </div>
+      <div class="footer-nav">
+        {% assign sorted_pages = site.pages | sort: "nav_order" %}
+        {% for p in sorted_pages %}
+          {% if p.nav and p.nav == true %}
+            <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </footer>
 {% endif %}
