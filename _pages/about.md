@@ -24,7 +24,7 @@ social: true # includes social icons at the bottom of the page
 </p>
 
 <p>
-  I completed a PhD in Information Engineering and Computer Science at the <a href="https://www.unitn.it/en/">University of Trento</a> and FBK, with honors. My thesis addresses a gap in persona-based dialogue research: most systems learn to generate responses consistent with the persona the agent is playing, but ignore the conversational partner. I study how models can balance staying in character with adapting to different interlocutors.
+  I completed a PhD in Information Engineering and Computer Science at the <a href="https://www.unitn.it/en/">University of Trento</a> and FBK, with honors. My thesis addresses a gap in persona-based dialogue research: most studies have overlooked the interlocutor, focusing on whether the agent stays in character while ignoring how it adapts to the conversational partner. I study how models can balance staying in character with adapting to different interlocutors.
 </p>
 
 <div class="homepage-highlights" aria-label="Areas of expertise">
