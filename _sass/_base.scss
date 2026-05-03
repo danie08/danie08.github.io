@@ -1746,7 +1746,7 @@ ninja-keys::part(ninja-input-wrapper) {
 
   ol.bibliography li {
     position: relative;
-    padding: $space-6 $space-4 $space-6 calc(#{$space-4} + #{$space-3});
+    padding: $space-6 $space-4 $space-6 $space-8;
     border-bottom: 1px solid var(--global-divider-color);
     border-left: 3px solid var(--global-theme-color);
     margin-left: 0;
@@ -1813,6 +1813,6 @@ ninja-keys::part(ninja-input-wrapper) {
 // Showcase mobile padding reduction
 @media (max-width: 575.98px) {
   .selected-papers-showcase ol.bibliography li {
-    padding: $space-4 $space-3 $space-4 calc(#{$space-3} + #{$space-3});
+    padding: $space-4 $space-3 $space-4 $space-6;
   }
 }
