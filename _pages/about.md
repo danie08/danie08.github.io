@@ -11,7 +11,7 @@ description: Daniela Occhipinti connects NLP research on persona-based dialogue 
   <p class="portfolio-lead">Connecting AI research<br>with real-world applications.</p>
   <p>I’m Daniela, an <strong>AI researcher and engineer</strong>.</p>
   <p>I’m particularly interested in AI that responds to people’s individual characteristics. My broader motivation is to build technology that makes information and everyday tasks more accessible, while <strong>supporting people’s autonomy</strong>.</p>
-  <p>My work spans research on persona-based dialogue and the development of LLM applications at <strong>Ricca IT</strong>.</p>
+  <p>My work spans research on persona-based dialogue and the development of LLM applications at <strong><a href="https://www.ricca-it.com/">Ricca IT</a></strong>.</p>
 </section>
 
 <section id="research" class="portfolio-section" aria-labelledby="research-title">
@@ -28,7 +28,7 @@ description: Daniela Occhipinti connects NLP research on persona-based dialogue 
 <section id="applied-ai" class="portfolio-section" aria-labelledby="applied-title">
   <h2 id="applied-title" class="portfolio-eyebrow">Applied AI · putting ideas into practice</h2>
   <h3>Building systems. Examining how they work.</h3>
-  <p>Alongside these research interests, I work on practical AI systems at <strong>Ricca IT</strong>. My role spans designing and developing LLM applications, RAG pipelines and agents, and testing how well they work in real use cases.</p>
+  <p>Alongside these research interests, I work on practical AI systems at <strong><a href="https://www.ricca-it.com/">Ricca IT</a></strong>. My role spans designing and developing LLM applications, RAG pipelines and agents, and testing how well they work in real use cases.</p>
   <p><strong>Evaluation connects these two sides of my work:</strong> asking what a model is doing, designing ways to assess it, and using the results to guide improvements.</p>
   <div class="portfolio-practice">
     <h4>LLM applications, RAG &amp; agents</h4>
@@ -43,9 +43,9 @@ description: Daniela Occhipinti connects NLP research on persona-based dialogue 
   <h2 id="background-title" class="portfolio-eyebrow">Background · the path so far</h2>
   <p>My background brings together doctoral research in conversational AI and experience developing NLP systems.</p>
   <ol class="portfolio-timeline">
-    <li><span class="portfolio-period">Current</span><div><h3>AI Engineer · Ricca IT</h3><p>LLM-based applications, retrieval, agents and evaluation.</p></div></li>
-    <li><span class="portfolio-period">Research</span><div><h3>Fondazione Bruno Kessler</h3><p>Language and Dialogue Technologies group. Persona-based dialogue generation and evaluation.</p></div></li>
-    <li><span class="portfolio-period">PhD</span><div><h3>University of Trento &amp; FBK</h3><p>Information Engineering and Computer Science. Completed with honors.</p></div></li>
+    <li><span class="portfolio-period">Current</span><div><h3>AI Engineer · <a href="https://www.ricca-it.com/">Ricca IT</a></h3><p>LLM-based applications, retrieval, agents and evaluation.</p></div></li>
+    <li><span class="portfolio-period">Research</span><div><h3><a href="https://www.fbk.eu/en/">Fondazione Bruno Kessler</a></h3><p>Language and Dialogue Technologies group. Persona-based dialogue generation and evaluation.</p></div></li>
+    <li><span class="portfolio-period">PhD</span><div><h3><a href="https://iecs.unitn.it/">University of Trento (IECS)</a> &amp; <a href="https://www.fbk.eu/en/">FBK</a></h3><p>Information Engineering and Computer Science. Completed with honors.</p></div></li>
   </ol>
   <p class="portfolio-more"><a href="{{ '/cv/' | relative_url }}">View my CV <span aria-hidden="true">↗</span></a></p>
 </section>
@@ -54,7 +54,7 @@ description: Daniela Occhipinti connects NLP research on persona-based dialogue 
   <h2 id="milestones-title" class="portfolio-eyebrow">Recent milestones</h2>
   <ul class="portfolio-milestones">
     <li><time datetime="2026-10">Oct 2026</time><p><a href="https://aclanthology.org/2026.emnlp-main.445.pdf">Stranger, Fan, or Peer? A Systematic Study on the Role of Interlocutor in Persona-Based Dialogue Generation</a> published at EMNLP 2026.</p></li>
-    <li><time datetime="2026-04-28">Apr 2026</time><p>Completed my doctorate on <strong>persona-based dialogue generation</strong> at the University of Trento and FBK, with honors.</p></li>
+    <li><time datetime="2026-04-28">Apr 2026</time><p>Completed my doctorate on <strong>persona-based dialogue generation</strong> at the <a href="https://iecs.unitn.it/">University of Trento (IECS)</a> and <a href="https://www.fbk.eu/en/">FBK</a>, with honors.</p></li>
   </ul>
   <p class="portfolio-more"><a href="{{ '/news/' | relative_url }}">All milestones <span aria-hidden="true">↗</span></a></p>
 </section>

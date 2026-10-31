@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: PhD in Information Engineering and Computer Science
-      institution: University of Trento & Fondazione Bruno Kessler, Trento, Italy
+      institution: '<a href="https://iecs.unitn.it/">University of Trento (IECS)</a> &amp; <a href="https://www.fbk.eu/en/">Fondazione Bruno Kessler</a>, Trento, Italy'
       year: 2021 - 2026
       description:
         - PhD completed with honors, April 2026. Research focus on persona-based dialogue generation and interlocutor-aware conversational AI.
@@ -27,13 +27,13 @@
   type: time_table
   contents:
     - title: AI Engineer
-      institution: Ricca IT
+      institution: '<a href="https://www.ricca-it.com/">Ricca IT</a>'
       year: Current
       description:
         - Designing and developing LLM-based applications, RAG pipelines and AI agents.
         - Testing systems in practical use cases and designing evaluation pipelines with LLMs and agents as judges.
     - title: Researcher
-      institution: Language and Dialogue Technologies Group, Fondazione Bruno Kessler (Trento, Italy)
+      institution: 'Language and Dialogue Technologies Group, <a href="https://www.fbk.eu/en/">Fondazione Bruno Kessler</a> (Trento, Italy)'
       year: Previously
     - title: NLP Engineer
       institution: TopNetwork S.p.A.

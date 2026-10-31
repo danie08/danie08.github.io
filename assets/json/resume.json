@@ -35,7 +35,7 @@
     {
       "institution": "University of Trento & Fondazione Bruno Kessler",
       "location": "Trento, Italy",
-      "url": "https://www.unitn.it/en",
+      "url": "https://iecs.unitn.it/",
       "area": "Information Engineering and Computer Science — persona-based dialogue generation; completed with honors",
       "studyType": "PhD",
       "startDate": "2021-11-01",
@@ -64,7 +64,8 @@
     {
       "name": "Ricca IT",
       "position": "AI Engineer",
-      "summary": "Current role: designing and developing LLM applications, RAG pipelines, AI agents and evaluation pipelines, including LLMs and agents as judges."
+      "summary": "Current role: designing and developing LLM applications, RAG pipelines, AI agents and evaluation pipelines, including LLMs and agents as judges.",
+      "url": "https://www.ricca-it.com/"
     },
     {
       "name": "Fondazione Bruno Kessler - Language and Dialogue Technologies Group",
