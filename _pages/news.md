@@ -1,10 +1,19 @@
 ---
 layout: page
-title: News
+title: Milestones
 permalink: /news/
-description: News and updates from Daniela Occhipinti — conference presentations, paper acceptances, and research milestones in NLP and conversational AI.
-nav: true
+description: Publications, presentations, research visits and other milestones along the way.
+nav: false
 nav_order: 2
 ---
 
-{% include news.liquid %}
+{% assign milestones = site.news | sort: 'date' | reverse %}
+
+<ul class="portfolio-milestones" aria-label="All milestones">
+  {% for item in milestones %}
+    <li class="portfolio-milestone-entry">
+      <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: '%b %Y' }}</time>
+      <p><a href="{{ item.url | relative_url }}">{{ item.title }}</a></p>
+    </li>
+  {% endfor %}
+</ul>

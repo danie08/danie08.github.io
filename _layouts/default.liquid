@@ -1,59 +1,23 @@
 <!doctype html>
 <html lang="{{ site.lang }}">
-  <!-- Head -->
   <head>
-    {% if page.redirect %}
-      {% if page.redirect == true %}
-        {% assign redirect = site.baseurl | append: '/' %}
-      {% elsif page.redirect contains '://' %}
-        {% assign redirect = page.redirect %}
-      {% else %}
-        {% assign redirect = page.redirect | relative_url %}
-      {% endif %}
-      <meta http-equiv="refresh" content="3; url={{ redirect }}">
-    {% endif %}
     {% include head.liquid %}
   </head>
-
-  <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-    <!-- Skip to main content (WCAG 2.4.1) -->
+  <body class="portfolio-site">
     <a class="skip-link" href="#main-content">Skip to main content</a>
-
-    <!-- Header -->
-    {% include header.liquid %}
-
-    <!-- Content -->
-    <main id="main-content" class="container mt-5">
-      {% if page.toc and page.toc.sidebar %}
-        {% if page.toc.sidebar == 'right' %}
-          <div class="row">
-            <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
-            <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top" aria-label="Table of contents"></nav>
-            </div>
-          </div>
-        {% else %}
-          <div class="row">
-            <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top" aria-label="Table of contents"></nav>
-            </div>
-            <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
-          </div>
-        {% endif %}
-      {% else %}
-        {{ content }}
-      {% endif %}
-    </main>
-
-    <!-- Footer -->
-    {% include footer.liquid %}
-
-    <!-- JavaScripts -->
+    <div class="portfolio-shell">
+      {% include portfolio-sidebar.liquid %}
+      <div class="portfolio-reading">
+        <main id="main-content" tabindex="-1">{{ content }}</main>
+        <footer class="portfolio-footer">
+          <span>&copy; {{ site.time | date: '%Y' }} Daniela Occhipinti</span>
+          <a href="{{ '/cv/' | relative_url }}">CV</a>
+          <a href="{{ '/publications/' | relative_url }}">Publications</a>
+          <a href="{{ '/news/' | relative_url }}">Milestones</a>
+        </footer>
+      </div>
+    </div>
     {% include scripts.liquid %}
+    <script defer src="{{ '/assets/js/portfolio.js' | relative_url | bust_file_cache }}"></script>
   </body>
 </html>

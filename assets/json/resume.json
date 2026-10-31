@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Daniela Occhipinti",
-    "label": "Researcher",
+    "label": "AI Researcher & Engineer",
     "image": "",
-    "email": "docchipinti@fbk.eu",
+    "email": "dani.occhipinti91@gmail.com",
     "url": "https://danie08.github.io/",
-    "summary": "Researcher in Natural Language Generation.",
+    "summary": "AI researcher and engineer connecting persona-based dialogue research with designing, developing and evaluating LLM applications, RAG pipelines and agents.",
     "location": {
       "address": "Via Sommarive, 18 Povo",
       "postalCode": "38123",
@@ -18,7 +18,7 @@
         "network": "X",
         "username": "docchipinti8",
         "url": "https://twitter.com/docchipinti8"
-      }, 
+      },
       {
         "network": "Bluesky",
         "username": "docchipinti8.bsky.social",
@@ -36,10 +36,10 @@
       "institution": "University of Trento & Fondazione Bruno Kessler",
       "location": "Trento, Italy",
       "url": "https://www.unitn.it/en",
-      "area": "Persona Based Dialogue Generation",
+      "area": "Information Engineering and Computer Science — persona-based dialogue generation; completed with honors",
       "studyType": "PhD",
       "startDate": "2021-11-01",
-      "endDate": "2025-10-31"
+      "endDate": "2026-04-28"
     },
     {
       "institution": "University of Pisa",
@@ -62,12 +62,17 @@
   ],
   "work": [
     {
+      "name": "Ricca IT",
+      "position": "AI Engineer",
+      "summary": "Current role: designing and developing LLM applications, RAG pipelines, AI agents and evaluation pipelines, including LLMs and agents as judges."
+    },
+    {
       "name": "Fondazione Bruno Kessler - Language and Dialogue Technologies Group",
       "position": "Researcher",
       "location": "Trento, Italy",
       "url": "https://land.fbk.eu/",
       "startDate": "2025-11-01",
-      "summary": "Research on persona-based dialogue generation and evaluation."
+      "summary": "Previous research role in persona-based dialogue generation and evaluation."
     },
     {
       "name": "TopNetwork S.p.A",
@@ -112,24 +117,31 @@
   ],
   "publications": [
     {
+      "name": "Stranger, Fan, or Peer? A Systematic Study on the Role of Interlocutor in Persona-Based Dialogue Generation",
+      "publisher": "Association for Computational Linguistics",
+      "releaseDate": "2026-10-24",
+      "url": "https://aclanthology.org/2026.emnlp-main.445.pdf",
+      "summary": "Daniela Occhipinti, Malvina Nissim, and Marco Guerini. EMNLP 2026, pages 10250–10270."
+    },
+    {
       "name": "When Harry Meets Superman: The Role of The Interlocutor in Persona-Based Dialogue Generation",
       "publisher": "Association for Computational Linguistics",
       "releaseDate": "2025-06-05",
-      "url": "https://arxiv.org/abs/2505.24613",
-      "summary": "Daniela Occhipinti, Marco Guerini, and Malvina Nissim. 2025. When Harry Meets Superman: The Role of The Interlocutor in Persona-Based Dialogue Generation. To appear: Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)"
+      "url": "https://aclanthology.org/2025.acl-long.879.pdf",
+      "summary": "Daniela Occhipinti, Marco Guerini, and Malvina Nissim. ACL 2025, Volume 1: Long Papers, pages 17964–17985."
     },
     {
       "name": "Fine-tuning with HED-IT: The impact of human post-editing for dialogical language models",
       "publisher": "Association for Computational Linguistics",
       "releaseDate": "2024-08-01",
-      "url": "https://aclanthology.org/2024.findings-acl.707/",
+      "url": "https://aclanthology.org/2024.findings-acl.707.pdf",
       "summary": "Daniela Occhipinti, Michele Marchi, Irene Mondella, Huiyuan Lai, Felice Dell’Orletta, Malvina Nissim, and Marco Guerini. 2024. Fine-tuning with HED-IT: The impact of human post-editing for dialogical language models. In Findings of the Association for Computational Linguistics: ACL 2024, pages 11892–11907, Bangkok, Thailand. Association for Computational Linguistics."
     },
     {
       "name": "PRODIGy: a PROfile-based DIalogue Generation dataset",
       "publisher": "Association for Computational Linguistics",
       "releaseDate": "2024-06-01",
-      "url": "https://aclanthology.org/2024.findings-naacl.222/",
+      "url": "https://aclanthology.org/2024.findings-naacl.222.pdf",
       "summary": "Daniela Occhipinti, Serra Sinem Tekiroğlu, and Marco Guerini. 2024. PRODIGy: a PROfile-based DIalogue Generation dataset. In Findings of the Association for Computational Linguistics: NAACL 2024, pages 3500–3514, Mexico City, Mexico. Association for Computational Linguistics."
     },
     {
@@ -145,12 +157,7 @@
       "name": "Computational Skills",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "Natural Language Processing and Generation",
-        "HuggingFace, PyTorch",
-        "Containerization using Docker"
-      ]
+      "keywords": ["Python", "Natural Language Processing and Generation", "HuggingFace, PyTorch", "Containerization using Docker"]
     }
   ],
   "languages": [
@@ -169,10 +176,7 @@
     {
       "name": "Natural Language Generation",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Persona-Based Dialogue Generation",
-        "Dialogue Generation"
-      ]
+      "keywords": ["Persona-Based Dialogue Generation", "Dialogue Generation"]
     }
   ]
 }

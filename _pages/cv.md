@@ -1,12 +1,11 @@
 ---
 layout: cv
+use_cv_data: true
 permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-description: Academic CV of Daniela Occhipinti — NLP researcher at FBK specialising in persona-based dialogue generation and conversational AI.
-toc:
-  sidebar: left
+description: Daniela Occhipinti — AI researcher and engineer. Experience, education, publications and skills spanning conversational AI research and practical LLM systems.
 ---
 
-My work sits at the intersection of language, people, and computation, and I focus on how conversational systems can model speaker identity, interlocutor dynamics, and evaluation in more meaningful ways. The sections below trace that path from early work in language technologies to my current research agenda in persona-based dialogue generation.
+My work connects research on persona-based dialogue and interlocutor adaptation with designing, developing and evaluating LLM applications, RAG pipelines and AI agents. I currently work as an AI Engineer at Ricca IT.

@@ -1,0 +1,73 @@
+---
+---
+<article class="portfolio-publication" aria-label="{{ entry.title | escape }}">
+  <div class="portfolio-publication-visual">
+    {% if entry.abbr -%}
+      <span class="portfolio-venue">{{ entry.abbr }}</span>
+    {%- endif %}
+    {% if entry.preview %}
+      <img
+        src="{% if entry.preview contains '://' %}{{ entry.preview }}{% else %}{{ entry.preview | prepend: '/assets/img/' | relative_url }}{% endif %}"
+        alt="{{ entry.title | escape }} — publication preview"
+        loading="lazy"
+        decoding="async"
+      >
+    {% endif %}
+  </div>
+  <div class="portfolio-publication-content">
+    <h3 class="portfolio-publication-title">
+      <a href="{{ entry.pdf }}">{{ entry.title }}</a>
+    </h3>
+    <p class="portfolio-authors">
+      {% for author in entry.author_array %}
+        {%- unless forloop.first -%}
+          , {% if forloop.last %}and {% endif -%}
+        {%- endunless -%}
+        {%- if author.last == 'Occhipinti' and author.first == 'Daniela' -%}
+          <span class="portfolio-self">
+            {{- author.first }}
+            {{ author.last -}}
+          </span>
+        {%- else -%}
+          {{ author.first }}
+          {{ author.last }}
+        {%- endif -%}
+      {% endfor %}
+    </p>
+    <p class="portfolio-proceedings">
+      In {{ entry.booktitle -}}
+      {%- if entry.month %}, {{ entry.month | capitalize }}{% endif %}
+      {{ entry.year }}
+    </p>
+    {% if entry.note %}
+      <p class="portfolio-paper-note">{{ entry.note }}</p>
+    {% endif %}
+    <div class="portfolio-resources">
+      <a class="portfolio-resource portfolio-resource-primary" href="{{ entry.pdf }}">PDF <span aria-hidden="true">↗</span></a>
+      {% if entry.doi -%}
+        <a class="portfolio-resource" href="https://doi.org/{{ entry.doi }}">DOI <span aria-hidden="true">↗</span></a>
+      {%- endif %}
+      {% if entry.code -%}
+        <a class="portfolio-resource" href="{{ entry.code }}">Code <span aria-hidden="true">↗</span></a>
+      {%- endif %}
+      {% if entry.website -%}
+        <a class="portfolio-resource" href="{{ entry.website }}">Website <span aria-hidden="true">↗</span></a>
+      {%- endif %}
+      {% if entry.poster -%}
+        <a class="portfolio-resource" href="{{ entry.poster }}">Poster <span aria-hidden="true">↗</span></a>
+      {%- endif %}
+    </div>
+    {% if entry.abstract %}
+      <details class="portfolio-publication-details">
+        <summary>Abstract</summary>
+        <p>{{ entry.abstract }}</p>
+      </details>
+    {% endif %}
+    {% if entry.bibtex_show %}
+      <details class="portfolio-publication-details">
+        <summary>Bib</summary>
+        <pre><code>{{ entry.bibtex | hideCustomBibtex | escape }}</code></pre>
+      </details>
+    {% endif %}
+  </div>
+</article>

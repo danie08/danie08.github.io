@@ -4,7 +4,7 @@
     - name: Full Name
       value: Daniela Occhipinti
     - name: Email
-      value: docchipinti@fbk.eu
+      value: dani.occhipinti91@gmail.com
     - name: Location
       value: Trento, Italy
 
@@ -13,9 +13,9 @@
   contents:
     - title: PhD in Information Engineering and Computer Science
       institution: University of Trento & Fondazione Bruno Kessler, Trento, Italy
-      year: 2021 - 2025
+      year: 2021 - 2026
       description:
-        - PhD graduated with honors, 2025. Research focus on persona-based dialogue generation and interlocutor-aware conversational AI.
+        - PhD completed with honors, April 2026. Research focus on persona-based dialogue generation and interlocutor-aware conversational AI.
     - title: M.Sc. in Digital Humanities (Language Technologies)
       institution: University of Pisa, Pisa, Italy
       year: 2017 - 2020
@@ -26,9 +26,15 @@
 - title: Experience
   type: time_table
   contents:
+    - title: AI Engineer
+      institution: Ricca IT
+      year: Current
+      description:
+        - Designing and developing LLM-based applications, RAG pipelines and AI agents.
+        - Testing systems in practical use cases and designing evaluation pipelines with LLMs and agents as judges.
     - title: Researcher
       institution: Language and Dialogue Technologies Group, Fondazione Bruno Kessler (Trento, Italy)
-      year: Nov 2025 - Present
+      year: Previously
     - title: NLP Engineer
       institution: TopNetwork S.p.A.
       year: Nov 2020 - Oct 2021
@@ -44,20 +50,22 @@
 - title: Publications
   type: list
   contents:
-    - When Harry Meets Superman: The Role of the Interlocutor in Persona-Based Dialogue Generation. ACL 2025.
-    - Fine-tuning with HED-IT: The impact of human post-editing for dialogical language models. ACL 2024.
-    - PRODIGy: a PROfile-based DIalogue Generation dataset. NAACL 2024.
-    - ItaliaNLP @ TAG-IT: UmBERTo for Author Profiling at TAG-it 2020. EVALITA 2020.
+    - '<a href="https://aclanthology.org/2026.emnlp-main.445.pdf">Stranger, Fan, or Peer? A Systematic Study on the Role of Interlocutor in Persona-Based Dialogue Generation.</a> EMNLP 2026.'
+    - '<a href="https://aclanthology.org/2025.acl-long.879.pdf">When Harry Meets Superman: The Role of The Interlocutor in Persona-Based Dialogue Generation.</a> ACL 2025.'
+    - '<a href="https://aclanthology.org/2024.findings-acl.707.pdf">Fine-tuning with HED-IT: The impact of human post-editing for dialogical language models.</a> Findings of ACL 2024.'
+    - '<a href="https://aclanthology.org/2024.findings-naacl.222.pdf">PRODIGy: a PROfile-based DIalogue Generation dataset.</a> Findings of NAACL 2024.'
+    - '<a href="https://ceur-ws.org/Vol-2765/paper143.pdf">ItaliaNLP @ TAG-IT: UmBERTo for Author Profiling at TAG-it 2020.</a> EVALITA 2020.'
 
 - title: Awards and Honors
   type: list
   contents:
-    - "PhD in Information Engineering and Computer Science — graduated with honors, University of Trento & FBK, 2025."
+    - "PhD in Information Engineering and Computer Science — graduated with honors, University of Trento & FBK, 2026."
     - "1st place in all subtasks of TAG-it at EVALITA 2020 (author profiling shared task)."
 
 - title: Skills
   type: list
   contents:
+    - LLM applications; retrieval-augmented generation (RAG); AI agents; LLM/agent-based evaluation.
     - Python; PyTorch; Hugging Face ecosystem; Docker; data collection & evaluation for NLG.
 
 - title: Languages

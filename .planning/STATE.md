@@ -14,6 +14,8 @@ progress:
 
 # Project State
 
+> Active local redesign (2026-10-31): the approved research + applied AI brief supersedes the earlier visual phases below. See [design](redesign/DESIGN.md), [plan](redesign/PLAN.md), and [execution record](redesign/PROGRESS.md). Keep all work local until Daniela requests publication.
+
 ## Project Reference
 
 See: .planning/PROJECT.md (updated 2026-04-30)
@@ -23,20 +25,20 @@ See: .planning/PROJECT.md (updated 2026-04-30)
 
 ## Status
 
-| Phase | Status | Started | Completed |
-|-------|--------|---------|-----------|
-| 1. Visual Foundation | Complete | 2026-04-30 | 2026-04-30 |
-| 2. Homepage Layout | Ready to execute | 2026-04-30 | — |
-| 3. Content Accuracy | Not started | — | — |
-| 4. Pre-Launch Checks | Not started | — | — |
+| Phase                | Status           | Started    | Completed  |
+| -------------------- | ---------------- | ---------- | ---------- |
+| 1. Visual Foundation | Complete         | 2026-04-30 | 2026-04-30 |
+| 2. Homepage Layout   | Ready to execute | 2026-04-30 | —          |
+| 3. Content Accuracy  | Not started      | —          | —          |
+| 4. Pre-Launch Checks | Not started      | —          | —          |
 
 ## Phase 1 Progress
 
-| Plan | Name | Status | Commit |
-|------|------|--------|--------|
-| 01 | Color Tokens | Complete | 3acf32b |
-| 02 | Typography | Complete | 80c2702 |
-| 03 | Footer + PurgeCSS | Complete | 16e9d06 |
+| Plan | Name              | Status   | Commit  |
+| ---- | ----------------- | -------- | ------- |
+| 01   | Color Tokens      | Complete | 3acf32b |
+| 02   | Typography        | Complete | 80c2702 |
+| 03   | Footer + PurgeCSS | Complete | 16e9d06 |
 
 ## Decisions
 
@@ -50,25 +52,25 @@ See: .planning/PROJECT.md (updated 2026-04-30)
 
 ## Artifacts
 
-| Artifact | Location |
-|----------|----------|
-| Project context | `.planning/PROJECT.md` |
-| Config | `.planning/config.json` |
-| Requirements | `.planning/REQUIREMENTS.md` |
-| Roadmap | `.planning/ROADMAP.md` |
-| Research | `.planning/research/` |
-| Codebase map | `.planning/codebase/` |
+| Artifact        | Location                                                 |
+| --------------- | -------------------------------------------------------- |
+| Project context | `.planning/PROJECT.md`                                   |
+| Config          | `.planning/config.json`                                  |
+| Requirements    | `.planning/REQUIREMENTS.md`                              |
+| Roadmap         | `.planning/ROADMAP.md`                                   |
+| Research        | `.planning/research/`                                    |
+| Codebase map    | `.planning/codebase/`                                    |
 | Plan 01 Summary | `.planning/phases/01-visual-foundation/01-01-SUMMARY.md` |
 | Plan 02 Summary | `.planning/phases/01-visual-foundation/01-02-SUMMARY.md` |
 | Plan 03 Summary | `.planning/phases/01-visual-foundation/01-03-SUMMARY.md` |
 
 ## Performance Metrics
 
-| Phase | Plan | Duration | Tasks | Files |
-|-------|------|----------|-------|-------|
-| 01-visual-foundation | 01 | 2m 12s | 2/2 | 2 |
-| 01-visual-foundation | 02 | 4m | 2/2 | 3 |
-| 01-visual-foundation | 03 | 8m | 3/3 | 3 |
+| Phase                | Plan | Duration | Tasks | Files |
+| -------------------- | ---- | -------- | ----- | ----- |
+| 01-visual-foundation | 01   | 2m 12s   | 2/2   | 2     |
+| 01-visual-foundation | 02   | 4m       | 2/2   | 3     |
+| 01-visual-foundation | 03   | 8m       | 3/3   | 3     |
 
 ## Notes
 

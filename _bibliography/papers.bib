@@ -6,6 +6,7 @@
   pages={263},
   year={2020},
   url={https://ceur-ws.org/Vol-2765/paper143.pdf},
+  pdf={https://ceur-ws.org/Vol-2765/paper143.pdf},
   abbr={EVALITA2020},
   html = {https://ceur-ws.org/Vol-2765/paper143.pdf},
   bibtex_show = {true},
@@ -29,6 +30,8 @@
     address = "Vienna, Austria",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2025.acl-long.879/",
+    pdf = {https://aclanthology.org/2025.acl-long.879.pdf},
+    homepage = {true},
     doi = "10.18653/v1/2025.acl-long.879",
     pages = "17964--17985",
     ISBN = "979-8-89176-251-0",
@@ -58,6 +61,7 @@
     address = "Bangkok, Thailand",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.findings-acl.707",
+    pdf = {https://aclanthology.org/2024.findings-acl.707.pdf},
     doi = "10.18653/v1/2024.findings-acl.707",
     pages = "11892--11907",
     selected = {true},
@@ -85,6 +89,7 @@
     address = "Mexico City, Mexico",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.findings-naacl.222",
+    pdf = {https://aclanthology.org/2024.findings-naacl.222.pdf},
     doi = "10.18653/v1/2024.findings-naacl.222",
     pages = "3500--3514",
     selected = {true},
@@ -98,3 +103,21 @@
 }
 
 
+
+@inproceedings{occhipinti-etal-2026-stranger,
+    title = {Stranger, Fan, or Peer? A Systematic Study on the Role of Interlocutor in Persona-Based Dialogue Generation},
+    author = {Occhipinti, Daniela and Nissim, Malvina and Guerini, Marco},
+    booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+    month = oct,
+    year = {2026},
+    publisher = {Association for Computational Linguistics},
+    pages = {10250--10270},
+    url = {https://aclanthology.org/2026.emnlp-main.445/},
+    pdf = {https://aclanthology.org/2026.emnlp-main.445.pdf},
+    abbr = {EMNLP2026},
+    selected = {true},
+    homepage = {true},
+    bibtex_show = {true},
+    note = {Examines how access to biographies during training, generation and evaluation shapes contextual adaptation, copying and information leakage in persona-based dialogue.},
+    abstract = {Persona-based dialogue systems are usually conditioned on speaker biography, but dialogues involve at least two participants, and who has access to whose biography can vary across training, inference, and evaluation. Prior work often neglected these aspects, obscuring mechanisms that only appear when biography visibility is toggled separately across training, inference, and evaluation, a three-stage factorisation that prior work has largely treated as a single factor. We study this factorisation on a dataset of dialogues paired with speakers' biographies, varying whether the target and interlocutor speakers see each other's biographies during training and inference, and using an LLM as a judge to perform author identification. We find that (i) training-time visibility, more than inference-time visibility, determines whether models express persona traits through dialogue or fall back on copying biographical text (a known problem/phenomenon in persona-based generation); (ii) models trained with interlocutor-biography visibility copy less target-biographical text than models trained without it, while changing visibility only at inference time has a less consistent effect; and (iii) under asymmetric disclosure, where only the interlocutor sees the target biography, target content leaks into interlocutor turns more often, and dialogues containing such traces are easier for the judge to identify, especially when interlocutor turns are visible. In the setting we study, these results suggest that biography leakage into generated turns is largely an artefact of how interlocutor visibility is configured across training and inference, and separating the three stages is necessary to observe it.}
+}

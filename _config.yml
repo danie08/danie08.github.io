@@ -3,13 +3,15 @@
 # -----------------------------------------------------------------------------
 
 title: Daniela Occhipinti # the website title (if blank, full name will be used instead)
+professional_role: AI Researcher & Engineer
+current_employer: Ricca IT
 first_name: Daniela
-middle_name: 
+middle_name:
 last_name: Occhipinti
 contact_note: >
-  You can reach me by emailing me at docchipinti@fbk.eu
+  Feel free to get in touch at dani.occhipinti91@gmail.com.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Daniela Occhipinti, researcher in persona-based dialogue generation at Fondazione Bruno Kessler, Trento, Italy.
+  Daniela Occhipinti — AI researcher and engineer connecting persona-based dialogue research with practical LLM applications, RAG, agents and evaluation.
 footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: daniela-occhipinti, NLP, NLG, persona-based-dialogue-generation, dialogue-generation # add your own keywords or leave empty
@@ -41,15 +43,14 @@ rss_icon: false
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
-footer_fixed: true
-search_enabled: true
+navbar_fixed: false
+footer_fixed: false
+search_enabled: false
 socials_in_search: true
 bib_search: true
 
 # Dimensions
 max_width: 930px
-
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -126,8 +127,8 @@ google_analytics: G-HQ58HXBFK7 # your Google Analytics measurement ID (format: G
 # -----------------------------------------------------------------------------
 
 # blog_name:  # blog_name will be displayed in your blog page
-# blog_description: 
-# permalink: 
+# blog_description:
+# permalink:
 # lsi: false # produce an index for related posts
 
 # # Pagination
@@ -237,6 +238,8 @@ exclude:
   - package.json
   - package-lock.json
   - reports/
+  - tests/
+  - assets/jupyter/
   - purgecss.config.js
   - README.md
   - requirements.txt
@@ -251,7 +254,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
-#  - jekyll-imagemagick
+  #  - jekyll-imagemagick
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
@@ -280,6 +283,7 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
+  compress_css: false # Sass already emits compressed CSS; avoid processing icon styles twice.
   compress_javascript: false # set to false since we are using terser as the js minifier
   # exclude: ["robots.txt", "assets/js/search/*.js"]
 
@@ -319,7 +323,7 @@ scholar:
 
   source: /_bibliography/
   bibliography: papers.bib
-  bibliography_template: bib
+  bibliography_template: publication
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
@@ -359,6 +363,7 @@ filtered_bibtex_keywords:
     code,
     google_scholar_id,
     html,
+    homepage,
     inspirehep_id,
     pdf,
     poster,
@@ -395,7 +400,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # use original static images; enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
@@ -429,14 +434,14 @@ enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
-enable_masonry: true # enables automatic project cards arrangement
-enable_math: true # enables math typesetting (uses MathJax)
+enable_masonry: false # enables automatic project cards arrangement
+enable_math: false # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: false # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
-enable_medium_zoom: true # enables image zoom feature (as on medium.com)
-enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
+enable_medium_zoom: false # enables image zoom feature (as on medium.com)
+enable_progressbar: false # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
 
 # -----------------------------------------------------------------------------
@@ -488,7 +493,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
   highlightjs:
     integrity:
       css:

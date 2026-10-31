@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+# Use Homebrew Ruby when the macOS system Ruby is too old for this project.
+if [[ -x /opt/homebrew/opt/ruby/bin/ruby ]]; then
+  export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+fi
+export BUNDLE_PATH="${BUNDLE_PATH:-vendor/bundle}"
+export BUNDLE_APP_CONFIG="${BUNDLE_APP_CONFIG:-.bundle}"
+exec bundle exec jekyll serve --host 127.0.0.1 --port "${PORT:-4000}" --livereload

@@ -1,0 +1,68 @@
+{% assign home = '/' | relative_url %}
+<header class="portfolio-identity">
+  <a class="portfolio-home" href="{{ home }}" aria-label="Daniela Occhipinti — home">
+    <img
+      class="portfolio-portrait"
+      src="{{ '/assets/img/photo_2026-04-30_18-00-03.jpg' | relative_url }}"
+      width="88"
+      height="88"
+      alt="Daniela Occhipinti"
+    >
+    {% if page.url == '/' %}
+      <h1 class="portfolio-name">
+        Daniela<br>
+        Occhipinti
+      </h1>
+    {% else %}
+      <p class="portfolio-name">
+        Daniela<br>
+        Occhipinti
+      </p>
+    {% endif %}
+  </a>
+  <p class="portfolio-role">{{ site.professional_role | escape }}</p>
+  <p class="portfolio-tagline">
+    Exploring language models.<br>
+    Building AI that supports people.
+  </p>
+  <nav class="portfolio-navigation" aria-label="Main navigation">
+    {% if page.url == '/' %}
+      <a href="#introduction" aria-current="location">Introduction</a>
+      <a href="#research">Research</a>
+      <a href="#applied-ai">Applied AI</a>
+      <a href="#background">Background</a>
+      <a href="#milestones">Milestones</a>
+    {% else %}
+      <a href="{{ home }}">Home</a>
+      <a href="{{ '/#research' | relative_url }}">Research</a>
+      <a href="{{ '/#applied-ai' | relative_url }}">Applied AI</a>
+      <a
+        href="{{ '/publications/' | relative_url }}"
+        {% if page.url == '/publications/' %}
+          aria-current="page"
+        {% endif %}
+        >Publications</a
+      >
+      <a
+        href="{{ '/cv/' | relative_url }}"
+        {% if page.url == '/cv/' %}
+          aria-current="page"
+        {% endif %}
+        >CV</a
+      >
+      <a
+        href="{{ '/news/' | relative_url }}"
+        {% if page.url == '/news/' %}
+          aria-current="page"
+        {% endif %}
+        >Milestones</a
+      >
+    {% endif %}
+  </nav>
+  <div class="portfolio-social" aria-label="Contact and profiles">
+    <a href="mailto:{{ site.data.socials.email }}">Email <span aria-hidden="true">↗</span></a>
+    <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}/">LinkedIn <span aria-hidden="true">↗</span></a>
+    <a href="https://github.com/{{ site.data.socials.github_username }}">GitHub <span aria-hidden="true">↗</span></a>
+    <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}">Scholar <span aria-hidden="true">↗</span></a>
+  </div>
+</header>

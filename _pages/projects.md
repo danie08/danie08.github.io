@@ -3,11 +3,12 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Selected research projects in persona-based dialogue generation and evaluation.
-nav: true
+nav: false
 nav_order: 4
 display_categories: [work, fun]
 horizontal: false
 ---
+
 This page brings together the three research threads that currently define my work. They are connected by one broader question: how can dialogue systems model people and social interaction in ways that are both computationally useful and conversationally meaningful?
 
 <section class="project-story">
@@ -21,7 +22,7 @@ This page brings together the three research threads that currently define my wo
   </p>
   <p class="project-story-takeaway">Takeaway: better dialogue personalization starts with better ways of representing people.</p>
   <p class="project-story-links">
-    <a href="https://aclanthology.org/2024.findings-naacl.222/">Paper</a>
+    <a href="https://aclanthology.org/2024.findings-naacl.222.pdf">Paper</a>
     <span>·</span>
     <a href="https://github.com/LanD-FBK/prodigy-dataset">Code and data</a>
     <span>·</span>
@@ -40,7 +41,7 @@ This page brings together the three research threads that currently define my wo
   </p>
   <p class="project-story-takeaway">Takeaway: conversational quality is shaped not only by model size, but by the care invested in the training data.</p>
   <p class="project-story-links">
-    <a href="https://aclanthology.org/2024.findings-acl.707/">Paper</a>
+    <a href="https://aclanthology.org/2024.findings-acl.707.pdf">Paper</a>
     <span>·</span>
     <a href="https://github.com/LanD-FBK/hed-it">Code and data</a>
     <span>·</span>
@@ -59,7 +60,7 @@ This page brings together the three research threads that currently define my wo
   </p>
   <p class="project-story-takeaway">Takeaway: believable dialogue depends on social context, not just a single speaker profile.</p>
   <p class="project-story-links">
-    <a href="https://aclanthology.org/2025.acl-long.879/">Paper</a>
+    <a href="https://aclanthology.org/2025.acl-long.879.pdf">Paper</a>
     <span>·</span>
     <a href="{{ '/news/paper-accepted-at-acl-2025-main/' | relative_url }}">Acceptance news</a>
     <span>·</span>

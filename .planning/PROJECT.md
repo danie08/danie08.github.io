@@ -1,5 +1,7 @@
 # danie08.github.io — Website Redesign
 
+> Updated brief (2026-10-31): Daniela is now an AI Engineer at Ricca IT. The approved local redesign connects NLP research with applied LLM applications, RAG, agents and evaluation, using a navy portfolio layout. The interview decisions and superseding scope are in [redesign/DESIGN.md](redesign/DESIGN.md). Earlier phase notes below are historical.
+
 ## What This Is
 
 A redesign of Daniela's academic personal website (danie08.github.io) to move away from the generic al-folio Jekyll template feel toward a distinctive, warm, and personal presence. The site must serve two audiences simultaneously: hiring committees evaluating Daniela for faculty/postdoc/industry roles, and fellow researchers looking to understand her work and connect. It runs on Jekyll and is hosted on GitHub Pages.
@@ -43,19 +45,21 @@ A visitor should immediately understand who Daniela is as a researcher — her p
 
 ## Key Decisions
 
-| Decision | Rationale | Outcome |
-|----------|-----------|---------|
-| Redesign-not-rebuild | Site has good content and structure already; the problem is visual identity | — Pending |
-| Custom design over theme swap | Swapping to a new theme risks breaking existing customizations | — Pending |
+| Decision                      | Rationale                                                                   | Outcome   |
+| ----------------------------- | --------------------------------------------------------------------------- | --------- |
+| Redesign-not-rebuild          | Site has good content and structure already; the problem is visual identity | — Pending |
+| Custom design over theme swap | Swapping to a new theme risks breaking existing customizations              | — Pending |
 
 ---
-*Last updated: 2026-04-30 — Phase 3 (Content Accuracy) complete*
+
+_Last updated: 2026-04-30 — Phase 3 (Content Accuracy) complete_
 
 ## Evolution
 
 This document evolves at phase transitions and milestone boundaries.
 
 **After each phase transition** (via `/gsd-transition`):
+
 1. Requirements invalidated? → Move to Out of Scope with reason
 2. Requirements validated? → Move to Validated with phase reference
 3. New requirements emerged? → Add to Active
@@ -63,6 +67,7 @@ This document evolves at phase transitions and milestone boundaries.
 5. "What This Is" still accurate? → Update if drifted
 
 **After each milestone** (via `/gsd-complete-milestone`):
+
 1. Full review of all sections
 2. Core Value check — still the right priority?
 3. Audit Out of Scope — reasons still valid?

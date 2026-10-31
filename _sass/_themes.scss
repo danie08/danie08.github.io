@@ -164,3 +164,27 @@ html[data-theme-setting="light"] {
     display: block;
   }
 }
+
+// Approved portfolio palette is the default; theme switching remains disabled.
+:root,
+html[data-theme="dark"] {
+  --global-bg-color: #10192c;
+  --global-code-bg-color: #172339;
+  --global-text-color: #e2eaf4;
+  --global-text-color-light: #a4b2c8;
+  --global-theme-color: #73dece;
+  --global-hover-color: #73dece;
+  --global-hover-text-color: #10192c;
+  --global-footer-bg-color: #10192c;
+  --global-footer-text-color: #a4b2c8;
+  --global-footer-link-color: #e2eaf4;
+  --global-divider-color: #2a3a53;
+  --global-card-bg-color: #172339;
+  --global-distill-app-color: #a4b2c8;
+  --global-back-to-top-bg-color: #19353f;
+  --global-back-to-top-text-color: #73dece;
+  --global-newsletter-bg-color: #172339;
+  --global-newsletter-text-color: #e2eaf4;
+  --portfolio-glow: #1a2d4d;
+  --portfolio-pill: #19353f;
+}
