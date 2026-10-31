@@ -9,30 +9,16 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-news",
-          title: "News",
-          description: "News and updates from Daniela Occhipinti — conference presentations, paper acceptances, and research milestones in NLP and conversational AI.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/news/";
-          },
-        },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "Publications",
-          description: "Publications by Daniela Occhipinti on persona-based dialogue generation, conversational AI evaluation, and NLP — including papers at ACL 2025, ACL 2024 Findings, and NAACL 2024 Findings.",
+          description: "Publications by Daniela Occhipinti on persona-based dialogue, interlocutor adaptation, conversational AI evaluation and NLP, including EMNLP 2026 and ACL 2025.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "Selected research projects in persona-based dialogue generation and evaluation.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-cv",
           title: "CV",
-          description: "Academic CV of Daniela Occhipinti — NLP researcher at FBK specialising in persona-based dialogue generation and conversational AI.",
+          description: "Daniela Occhipinti — AI researcher and engineer. Experience, education, publications and skills spanning conversational AI research and practical LLM systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -90,7 +76,17 @@ ninja.data = [{
           section: "News",},{id: "news-on-april-28th-i-successfully-defended-my-doctoral-thesis-on-persona-based-dialogue-generation-at-the-university-of-trento-and-fondazione-bruno-kessler-graduating-with-honors-it-has-been-a-demanding-and-deeply-rewarding-journey-crossing-this-finish-line-feels-like-both-a-conclusion-and-a-beginning-a-heartfelt-thank-you-to-my-advisors-dr-marco-guerini-and-prof-malvina-nissim-for-their-guidance-throughout-these-years-to-my-colleagues-for-their-constant-support-and-to-everyone-who-believed-in-me-along-the-way",
           title: 'On April 28th, I successfully defended my doctoral thesis on Persona-Based Dialogue Generation...',
           description: "",
+          section: "News",},{id: "news-our-paper-stranger-fan-or-peer-a-systematic-study-on-the-role-of-interlocutor-in-persona-based-dialogue-generation-with-malvina-nissim-and-marco-guerini-is-published-in-the-emnlp-2026-proceedings-it-examines-how-access-to-speaker-biographies-during-training-generation-and-evaluation-shapes-adaptation-copying-and-information-leakage",
+          title: 'Our paper Stranger, Fan, or Peer? A Systematic Study on the Role of...',
+          description: "",
           section: "News",},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%64%61%6E%69.%6F%63%63%68%69%70%69%6E%74%69%39%31@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
         id: 'social-bluesky',
         title: 'Bluesky',
         section: 'Socials',
