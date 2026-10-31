@@ -8,7 +8,7 @@ description: Daniela Occhipinti connects NLP research on persona-based dialogue 
 
 <section id="introduction" class="portfolio-section" aria-labelledby="introduction-title">
   <h2 id="introduction-title" class="portfolio-eyebrow">Introduction</h2>
-  <p class="portfolio-lead">From curiosity about language<br>to AI that helps people.</p>
+  <p class="portfolio-lead">Connecting AI research<br>with real-world applications.</p>
   <p>I’m Daniela, an <strong>AI researcher and engineer</strong>.</p>
   <p>I’m particularly interested in AI that responds to people’s individual characteristics. My broader motivation is to build technology that makes information and everyday tasks more accessible, while <strong>supporting people’s autonomy</strong>.</p>
   <p>My work spans research on persona-based dialogue and the development of LLM applications at <strong>Ricca IT</strong>.</p>
