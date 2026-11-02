@@ -5,6 +5,8 @@ import sys
 import json
 import re
 import unittest
+from html import unescape
+import xml.etree.ElementTree as ET
 
 ROOT = Path(sys.argv.pop(1)) if len(sys.argv) > 1 else Path('_site')
 
@@ -73,6 +75,28 @@ class PortfolioChecks(unittest.TestCase):
             if href.startswith('/news/'):
                 target = ROOT / href.strip('/') / 'index.html'
                 self.assertTrue(target.exists(), href)
+
+    def test_search_preview_metadata(self):
+        d = Document(ROOT / 'index.html')
+        title = unescape(re.search(r'<title>(.*?)</title>', d.text, re.S).group(1).strip())
+        self.assertEqual(title, 'Daniela Occhipinti | AI Researcher & Engineer')
+        meta = {a.get('name', a.get('property')): a.get('content') for t, a in d.tags if t == 'meta'}
+        self.assertEqual(meta['og:title'], title)
+        self.assertEqual(meta['twitter:title'], title)
+        self.assertIn('AI researcher and engineer', meta['description'])
+        self.assertIn('Ricca IT', meta['description'])
+        self.assertEqual(meta['og:description'], meta['description'])
+        self.assertEqual(meta['twitter:description'], meta['description'])
+
+    def test_crawler_files(self):
+        lines = (ROOT / 'robots.txt').read_text().splitlines()
+        self.assertIn('User-agent: *', lines)
+        self.assertIn('Disallow:', lines)
+        self.assertIn('Sitemap: https://danie08.github.io/sitemap.xml', lines)
+        ns = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
+        sitemap = ET.parse(ROOT / 'sitemap.xml')
+        home = next(u for u in sitemap.findall('s:url', ns) if u.findtext('s:loc', namespaces=ns) == 'https://danie08.github.io/')
+        self.assertTrue(home.findtext('s:lastmod', namespaces=ns), 'Home sitemap entry needs its real modification date')
 
     def test_current_cv_and_email(self):
         d = Document(ROOT / 'cv/index.html')

@@ -11,7 +11,7 @@ last_name: Occhipinti
 contact_note: >
   Feel free to get in touch at dani.occhipinti91@gmail.com.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Daniela Occhipinti — AI researcher and engineer connecting persona-based dialogue research with practical LLM applications, RAG, agents and evaluation.
+  Daniela Occhipinti is an AI researcher and engineer working on conversational AI, LLM applications, RAG, agents, and evaluation at Ricca IT.
 footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: daniela-occhipinti, NLP, NLG, persona-based-dialogue-generation, dialogue-generation # add your own keywords or leave empty
@@ -285,7 +285,7 @@ sass:
 jekyll-minifier:
   compress_css: false # Sass already emits compressed CSS; avoid processing icon styles twice.
   compress_javascript: false # set to false since we are using terser as the js minifier
-  # exclude: ["robots.txt", "assets/js/search/*.js"]
+  exclude: ["robots.txt"] # Keep crawler directives on separate lines.
 
 # -----------------------------------------------------------------------------
 # Terser

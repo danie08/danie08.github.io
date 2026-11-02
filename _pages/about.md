@@ -3,7 +3,9 @@ layout: about
 title: About
 permalink: /
 subtitle: AI Researcher & Engineer
-description: Daniela Occhipinti connects NLP research on persona-based dialogue and interlocutor adaptation with developing and evaluating real-world LLM applications, RAG pipelines and AI agents.
+seo_title: Daniela Occhipinti | AI Researcher & Engineer
+description: Daniela Occhipinti is an AI researcher and engineer working on conversational AI, LLM applications, RAG, agents, and evaluation at Ricca IT.
+last_modified_at: 2026-11-02
 ---
 
 <section id="introduction" class="portfolio-section" aria-labelledby="introduction-title">
